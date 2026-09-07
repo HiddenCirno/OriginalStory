@@ -1,0 +1,28 @@
+[
+  {
+    "zoneId": "story_chapter2_place_fly_record_shoreline",
+    "zoneName": "story_chapter2_place_fly_record_shoreline",
+    "zoneLocation": "Shoreline",
+    "zoneType": "placeitem",
+    "flareType": "",
+    "position": {
+      "x": 248.9158,
+      "y": -63.08485,
+      "z": 438.5457,
+      "w": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "scale": {
+      "x": 4,
+      "y": 2,
+      "z": 5,
+      "w": 0
+    },
+    "groupPosition": []
+  }
+]

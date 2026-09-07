@@ -1,0 +1,123 @@
+{
+    "塔科夫之旅1": {
+        "id": "塔科夫之旅1",
+        "prequestdata": {
+            "塔科夫之旅": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "塔科夫之旅2": {
+        "id": "塔科夫之旅2",
+        "prequestdata": {
+            "塔科夫之旅1": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "塔科夫之旅3": {
+        "id": "塔科夫之旅3",
+        "prequestdata": {
+            "塔科夫之旅2": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "塔科夫之旅4": {
+        "id": "塔科夫之旅4",
+        "prequestdata": {
+            "塔科夫之旅3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "塔科夫之旅5": {
+        "id": "塔科夫之旅5",
+        "prequestdata": {
+            "塔科夫之旅4": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "塔科夫之旅6": {
+        "id": "塔科夫之旅6",
+        "prequestdata": {
+            "塔科夫之旅5": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "塔科夫之旅7": {
+        "id": "塔科夫之旅7",
+        "prequestdata": {
+            "塔科夫之旅6": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "过路费1": {
+        "id": "过路费1",
+        "prequestdata": {
+            "塔科夫之旅7": {
+                "state": 4
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "过路费2": {
+        "id": "过路费2",
+        "prequestdata": {
+            "塔科夫之旅7": {
+                "state": 4
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "塔科夫之旅8": {
+        "id": "塔科夫之旅8",
+        "prequestdata": {
+            "塔科夫之旅7": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "塔科夫之旅9": {
+        "id": "塔科夫之旅9",
+        "prequestdata": {
+            "塔科夫之旅8": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    }
+}

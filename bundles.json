@@ -1,0 +1,35 @@
+{
+    "manifest": [
+        {
+            "key": "assets/hideout/wall_wallpaper.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/hideout/floor_story_04_for_humanity.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/hideout/ceiling_story_04_for_humanity.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders"
+            ]
+        },
+        {
+            "key": "assets/armband_Ana.bundle",
+            "dependencyKeys": [
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/characters/character/armband.bundle",
+                "assets/content/characters/character/armband/materials.bundle",
+                "cubemaps",
+                "shaders"
+            ]
+        }
+    ]
+}

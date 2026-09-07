@@ -1,0 +1,54 @@
+[
+    {
+        "zoneId": "story_episode1_visit_emercom_camp_woods",
+        "zoneName": "story_episode1_visit_emercom_camp_woods",
+        "zoneLocation": "Woods",
+        "zoneType": "visit",
+        "flareType": "",
+        "position": {
+            "x": -191.2569,
+            "y": 8.129502,
+            "z": 231.6731,
+            "w": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+        },
+        "scale": {
+            "x": 51,
+            "y": 21,
+            "z": 81,
+            "w": 0
+        },
+        "groupPosition": []
+    },
+    {
+        "zoneId": "story_episode1_placeitem_server_room_lab",
+        "zoneName": "story_episode1_placeitem_server_room_lab",
+        "zoneLocation": "laboratory",
+        "zoneType": "placeitem",
+        "flareType": "",
+        "position": {
+            "x": -121.8744,
+            "y": 1.378418,
+            "z": -288.7025,
+            "w": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+        },
+        "scale": {
+            "x": 1.4,
+            "y": 6,
+            "z": 1.5,
+            "w": 0
+        },
+        "groupPosition": []
+    }
+]

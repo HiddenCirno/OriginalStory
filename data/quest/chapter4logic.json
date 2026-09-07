@@ -1,0 +1,81 @@
+{
+    "无名者": {
+        "id": "无名者",
+        "prequestdata": {
+            "Batya6": {
+                "state": 16,
+                "cdtime": 3600,
+                "extracdtime": 3600
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "无名者1": {
+        "id": "无名者1",
+        "prequestdata": {
+            "无名者": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "无名者2": {
+        "id": "无名者2",
+        "prequestdata": {
+            "无名者1": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "无名者3": {
+        "id": "无名者3",
+        "prequestdata": {
+            "无名者2": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "无名者4": {
+        "id": "无名者4",
+        "prequestdata": {
+            "无名者3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "无名者5": {
+        "id": "无名者5",
+        "prequestdata": {
+            "无名者4": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "无名者6": {
+        "id": "无名者6",
+        "prequestdata": {
+            "无名者5": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    }
+}

@@ -1,0 +1,254 @@
+[
+    {
+        "$type": "locked",
+        "ID": "机械师_入侵电元出售",
+        "Trader": "5a7c2eca46aef81a7ca2145d",
+        "Item": [
+            {
+                "_id": "机械师_入侵电元出售",
+                "_tpl": "集成入侵电元",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "573476f124597737e04bf328": 1,
+            "573475fb24597737fb1379e1": 2
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "神秘蓝焰4",
+        "QuestStage": 0,
+        "Unknown": false
+    },
+    {
+        "$type": "locked",
+        "ID": "阿娜丝塔希娅_迷宫卡兑换",
+        "Trader": "Anastasia",
+        "Item": [
+            {
+                "_id": "阿娜丝塔希娅_迷宫卡兑换",
+                "_tpl": "679b9819a2f2dd4da9023512",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "679b992329acd1f2f60985a5": 1
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "迷宫2",
+        "QuestStage": 1,
+        "Unknown": true
+    },
+    {
+        "$type": "locked",
+        "ID": "阿娜丝塔希娅_白卡兑换",
+        "Trader": "Anastasia",
+        "Item": [
+            {
+                "_id": "阿娜丝塔希娅_白卡兑换",
+                "_tpl": "5c94bbff86f7747ee735c08f",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 5,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5696686a4bdc2da3298b456a": 1000
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "迷宫2",
+        "QuestStage": 1,
+        "Unknown": true
+    },
+    {
+        "$type": "locked",
+        "ID": "Prapor门票购买",
+        "Trader": "54cb50c76803fa8b248b4571",
+        "Item": [
+            {
+                "_id": "Prapor门票购买",
+                "_tpl": "Prapor给港口检查点的信",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 2,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "5449016a4bdc2d6f028b456f": 5400000
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "踏上旅途",
+        "QuestStage": 1,
+        "Unknown": true
+    },
+    {
+        "$type": "locked",
+        "ID": "Prapor门票转换",
+        "Trader": "Anastasia",
+        "Item": [
+            {
+                "_id": "Prapor门票转换",
+                "_tpl": "68f213f8ea61d1803707cf7a",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "Prapor给港口检查点的信": 1
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "踏上旅途",
+        "QuestStage": 1,
+        "Unknown": true
+    },
+    {
+        "$type": "locked",
+        "ID": "堕入黑暗门票转换",
+        "Trader": "Anastasia",
+        "Item": [
+            {
+                "_id": "堕入黑暗门票转换",
+                "_tpl": "67c04a6f9152fbdfa306cc66",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "以Prapor提供的哈希代码重新编码的钥匙卡": 1
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "凝视深渊之时",
+        "QuestStage": 1,
+        "Unknown": true
+    },
+    {
+        "$type": "locked",
+        "ID": "灯塔门票",
+        "Trader": "5a7c2eca46aef81a7ca2145d",
+        "Item": [
+            {
+                "_id": "灯塔门票",
+                "_tpl": "未知名称钥匙卡",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "BuyRestrictionMax": 1,
+                    "BuyRestrictionCurrent": 0,
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "6389c8c5dbfd5e4b95197e6b": 1
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "自我放逐",
+        "QuestStage": 1,
+        "Unknown": true
+    },
+    {
+        "$type": "locked",
+        "ID": "灯塔门票转换",
+        "Trader": "Anastasia",
+        "Item": [
+            {
+                "_id": "灯塔门票转换",
+                "_tpl": "67c04dac9320f644db06f45c",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "未知名称钥匙卡": 1
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "自我放逐",
+        "QuestStage": 1,
+        "Unknown": true
+    },
+    {
+        "$type": "locked",
+        "ID": "为了全人类门票转换",
+        "Trader": "Anastasia",
+        "Item": [
+            {
+                "_id": "为了全人类门票转换",
+                "_tpl": "67c033fd0610e91bea056998",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 999999,
+                    "UnlimitedCount": true
+                }
+            }
+        ],
+        "DogTag": {},
+        "Barter": {
+            "以Kerman提供的哈希代码重新编码的钥匙卡": 1
+        },
+        "TrustLevel": 1,
+        "isWeapon": false,
+        "Locked": true,
+        "Quest": "为了全人类",
+        "QuestStage": 1,
+        "Unknown": true
+    }
+]

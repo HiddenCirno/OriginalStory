@@ -1,0 +1,92 @@
+{
+    "Batya": {
+        "id": "Batya",
+        "prequestdata": {
+            "陨落星辰5": {
+                "state": 16,
+                "cdtime": 3600,
+                "extracdtime": 3600
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "Batya1": {
+        "id": "Batya1",
+        "prequestdata": {
+            "Batya": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "Batya2": {
+        "id": "Batya2",
+        "prequestdata": {
+            "Batya1": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "Batya3": {
+        "id": "Batya3",
+        "prequestdata": {
+            "Batya2": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "Batya4": {
+        "id": "Batya4",
+        "prequestdata": {
+            "Batya3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "Batya5": {
+        "id": "Batya5",
+        "prequestdata": {
+            "Batya4": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "好人难做": {
+        "id": "好人难做",
+        "prequestdata": {
+            "Batya5": {
+                "state": 4
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "Batya6": {
+        "id": "Batya6",
+        "prequestdata": {
+            "Batya5": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    }
+}

@@ -1,0 +1,290 @@
+{
+    "陨落星辰": {
+        "ID": "陨落星辰",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter2.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "visit",
+                    "id": "陨落星辰_坠机点踩点",
+                    "oneraid": true,
+                    "zoneid": "achiv_plane"
+                },
+                {
+                    "$type": "exit",
+                    "id": "陨落星辰_森林撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 2,
+                    "status": 3,
+                    "visible": [
+                        "陨落星辰_坠机点踩点"
+                    ],
+                    "chooseexitpoint": false
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "陨落星辰1": {
+        "ID": "陨落星辰1",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter2.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "陨落星辰1_寻物_GU盘",
+                    "inraid": false,
+                    "itemid": "G型越野车上的U盘",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "陨落星辰1_上交_GU盘",
+                    "visible": [
+                        "陨落星辰1_寻物_GU盘"
+                    ],
+                    "inraid": false,
+                    "itemid": "G型越野车上的U盘",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "陨落星辰2": {
+        "ID": "陨落星辰2",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter2.png",
+        "TraderID": "54cb50c76803fa8b248b4571",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "陨落星辰2_寻物_黑匣子",
+                    "inraid": false,
+                    "itemid": "黑匣子",
+                    "count": 1
+                },
+                {
+                    "$type": "exit",
+                    "id": "陨落星辰2_转移到海关",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 2,
+                    "status": 32,
+                    "visible": [
+                        "陨落星辰2_寻物_黑匣子"
+                    ],
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "exit",
+                    "id": "陨落星辰2_转移到海岸线",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 1,
+                    "status": 32,
+                    "visible": [
+                        "陨落星辰2_转移到海关"
+                    ],
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "place",
+                    "id": "陨落星辰2_安放黑匣子",
+                    "time": 15,
+                    "visible": [
+                        "陨落星辰2_转移到海岸线"
+                    ],
+                    "itemid": "黑匣子",
+                    "zoneid": "story_chapter2_place_fly_record_shoreline",
+                    "count": 1
+                },
+                {
+                    "$type": "exit",
+                    "id": "陨落星辰2_海岸线撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 32,
+                    "status": 3,
+                    "visible": [
+                        "陨落星辰2_安放黑匣子"
+                    ],
+                    "chooseexitpoint": false
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "陨落星辰3": {
+        "ID": "陨落星辰3",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter2.png",
+        "TraderID": "54cb50c76803fa8b248b4571",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "hand",
+                    "id": "陨落星辰3_上交_一套工具",
+                    "inraid": true,
+                    "itemid": "590c2e1186f77425357b6124",
+                    "count": 2
+                },
+                {
+                    "$type": "hand",
+                    "id": "陨落星辰3_上交_充电电池",
+                    "inraid": true,
+                    "itemid": "590a358486f77429692b2790",
+                    "count": 3
+                },
+                {
+                    "$type": "hand",
+                    "id": "陨落星辰3_上交_电路板",
+                    "inraid": true,
+                    "itemid": "590a3b0486f7743954552bdb",
+                    "count": 5
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "陨落星辰4": {
+        "ID": "陨落星辰4",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter2.png",
+        "TraderID": "54cb50c76803fa8b248b4571",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "陨落星辰4_寻物_机组对话记录",
+                    "inraid": false,
+                    "itemid": "机组对话记录",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "陨落星辰4_上交_机组对话记录",
+                    "visible": [
+                        "陨落星辰4_寻物_机组对话记录"
+                    ],
+                    "inraid": false,
+                    "itemid": "机组对话记录",
+                    "count": 1
+                },
+                {
+                    "$type": "find",
+                    "id": "陨落星辰4_寻物_Elektronik加密U盘",
+                    "inraid": false,
+                    "itemid": "Elektronik加密U盘",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "陨落星辰4_上交_Elektronik加密U盘",
+                    "visible": [
+                        "陨落星辰4_寻物_Elektronik加密U盘"
+                    ],
+                    "inraid": false,
+                    "itemid": "Elektronik加密U盘",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "陨落星辰5": {
+        "ID": "陨落星辰5",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter2.png",
+        "TraderID": "54cb50c76803fa8b248b4571",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "陨落星辰5_寻物_加固手提箱",
+                    "inraid": false,
+                    "itemid": "加固手提箱",
+                    "count": 1
+                },
+                {
+                    "$type": "exit",
+                    "id": "陨落星辰5_森林撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 2,
+                    "status": 3,
+                    "visible": [
+                        "陨落星辰5_寻物_加固手提箱"
+                    ],
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "hand",
+                    "id": "陨落星辰5_上交_加固手提箱",
+                    "visible": [
+                        "陨落星辰5_森林撤离"
+                    ],
+                    "inraid": false,
+                    "itemid": "加固手提箱",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "item",
+                "FindInRaid": false,
+                "Items": [
+                    {
+                        "_id": "陨落星辰5_卢布奖励_物品",
+                        "_tpl": "5449016a4bdc2d6f028b456f",
+                        "upd": {
+                            "StackObjectsCount": 1500000
+                        }
+                    }
+                ],
+                "Quest": "陨落星辰5",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1500000,
+                "ID": "陨落星辰5_卢布奖励"
+            },
+            {
+                "$type": "achievement",
+                "Target": "指引明路的苍蓝星",
+                "Quest": "陨落星辰5",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "陨落星辰5_成就奖励"
+            }
+        ]
+    }
+}

@@ -1,0 +1,271 @@
+{
+    "迷宫": {
+        "ID": "迷宫",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/episode3.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "迷宫_寻物_LLC设施钥匙",
+                    "inraid": false,
+                    "itemid": "679b9716597ba2ed120c3d3f",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "迷宫1": {
+        "ID": "迷宫1",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/episode3.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "quest",
+                    "id": "迷宫1_黄金之茧",
+                    "questid": "黄金之茧",
+                    "status": 16
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "黄金之茧": {
+        "ID": "黄金之茧",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/5d66701986f7744a2e70f025.jpg",
+        "TraderID": "5c0647fdd443bc2504c2d371",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "exit",
+                    "id": "黄金之茧_询问Jaeger",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 8191,
+                    "status": 63,
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "exit",
+                    "id": "黄金之茧_等待Jaeger",
+                    "visible": [
+                        "黄金之茧_询问Jaeger"
+                    ],
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 8191,
+                    "status": 63,
+                    "chooseexitpoint": false
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "黄金之茧_物品奖励_物品",
+                        "_tpl": "679b9819a2f2dd4da9023512",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "黄金之茧",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": true,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "黄金之茧_物品奖励"
+            }
+        ]
+    },
+    "迷宫2": {
+        "ID": "迷宫2",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/episode3.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "exit",
+                    "id": "迷宫2_海岸线转移",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": 32,
+                    "status": 32,
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "hand",
+                    "id": "迷宫2_上交_Leshy的命令",
+                    "visible": [
+                        "迷宫2_海岸线转移"
+                    ],
+                    "inraid": false,
+                    "itemid": "Leshy的命令",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "迷宫2_上交_Leshy的日志",
+                    "visible": [
+                        "迷宫2_海岸线转移"
+                    ],
+                    "inraid": false,
+                    "itemid": "Leshy的日志",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "迷宫3": {
+        "ID": "迷宫3",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/episode3.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "visit",
+                    "id": "迷宫3_观察室踩点",
+                    "oneraid": true,
+                    "zoneid": "story_episode3_visit_watch_room_labyrinth"
+                },
+                {
+                    "$type": "find",
+                    "id": "迷宫3_寻物_死去科学家的录音带",
+                    "visible": [
+                        "迷宫3_观察室踩点"
+                    ],
+                    "inraid": false,
+                    "itemid": "死去科学家的录音带",
+                    "count": 1
+                },
+                {
+                    "$type": "exit",
+                    "id": "迷宫3_迷宫撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 4096,
+                    "status": 3,
+                    "visible": [
+                        "迷宫3_寻物_死去科学家的录音带"
+                    ],
+                    "chooseexitpoint": false,
+                    "exitpoint": ""
+                },
+                {
+                    "$type": "hand",
+                    "id": "迷宫3_上交_死去科学家的录音带",
+                    "visible": [
+                        "迷宫3_迷宫撤离"
+                    ],
+                    "inraid": false,
+                    "itemid": "死去科学家的录音带",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "迷宫3_初始物品_物品",
+                        "_tpl": "679baace4e9ca6b3d80586b2",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "迷宫3",
+                "Stage": 0,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "迷宫3_初始物品"
+            }
+        ]
+    },
+    "迷宫4": {
+        "ID": "迷宫4",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/episode3.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "迷宫4_寻物_迷宫设施研发报告",
+                    "inraid": false,
+                    "itemid": "迷宫设施研发报告",
+                    "count": 1
+                },
+                {
+                    "$type": "exit",
+                    "id": "迷宫4_海岸线撤离",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": 32,
+                    "status": 3,
+                    "visible": [
+                        "迷宫4_寻物_迷宫设施研发报告"
+                    ],
+                    "chooseexitpoint": false,
+                    "exitpoint": ""
+                },
+                {
+                    "$type": "hand",
+                    "id": "迷宫4_上交_迷宫设施研发报告",
+                    "visible": [
+                        "迷宫4_海岸线撤离"
+                    ],
+                    "inraid": false,
+                    "itemid": "迷宫设施研发报告",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "achievement",
+                "Target": "忒修斯",
+                "Quest": "迷宫4",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "迷宫4_成就奖励"
+            }
+        ]
+    }
+}

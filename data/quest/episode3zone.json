@@ -1,0 +1,28 @@
+[
+    {
+        "zoneId": "story_episode3_visit_watch_room_labyrinth",
+        "zoneName": "story_episode3_visit_watch_room_labyrinth",
+        "zoneLocation": "Labyrinth",
+        "zoneType": "visit",
+        "flareType": "",
+        "position": {
+            "x": 9.781393,
+            "y": 2.120224,
+            "z": 4.370279,
+            "w": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+        },
+        "scale": {
+            "x": 6,
+            "y": 4,
+            "z": 5,
+            "w": 0
+        },
+        "groupPosition": []
+    }
+]

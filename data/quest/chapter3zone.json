@@ -1,0 +1,54 @@
+[
+  {
+    "zoneId": "story_chapter3_visit_bunker_shoreline",
+    "zoneName": "story_chapter3_visit_bunker_shoreline",
+    "zoneLocation": "Shoreline",
+    "zoneType": "visit",
+    "flareType": "",
+    "position": {
+      "x": -153.1503,
+      "y": -14.01141,
+      "z": -297.9739,
+      "w": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "scale": {
+      "x": 7,
+      "y": 4,
+      "z": 3,
+      "w": 0
+    },
+    "groupPosition": []
+  },
+  {
+    "zoneId": "story_chapter3_visit_zb016_bunker_woods",
+    "zoneName": "story_chapter3_visit_zb016_bunker_woods",
+    "zoneLocation": "Woods",
+    "zoneType": "visit",
+    "flareType": "",
+    "position": {
+      "x": -389.3936,
+      "y": 3.754583,
+      "z": 21.82006,
+      "w": 0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 0
+    },
+    "scale": {
+      "x": 5.0,
+      "y": 4,
+      "z": 7,
+      "w": 0
+    },
+    "groupPosition": []
+  }
+]

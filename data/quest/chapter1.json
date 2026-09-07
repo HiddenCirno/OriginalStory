@@ -1,0 +1,644 @@
+{
+    "塔科夫之旅": {
+        "ID": "塔科夫之旅",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter1.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅_撤离",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": 3072,
+                    "status": 3,
+                    "chooseexitpoint": false,
+                    "exitpoint": ""
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "塔科夫之旅1": {
+        "ID": "塔科夫之旅1",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter1.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "visit",
+                    "id": "塔科夫之旅1_立交桥转移点踩点",
+                    "oneraid": true,
+                    "zoneid": "story_chapter1_transit_visit_intercharge_to_streets"
+                },
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅1_立交桥转移",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 128,
+                    "status": 32,
+                    "visible": [
+                        "塔科夫之旅1_立交桥转移点踩点"
+                    ],
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅1_街区撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 512,
+                    "status": 3,
+                    "visible": [
+                        "塔科夫之旅1_立交桥转移"
+                    ],
+                    "chooseexitpoint": false
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "trader",
+                "ID": "塔科夫之旅1_大妈解锁",
+                "Trader": "54cb57776803fa99248b456e",
+                "Quest": "塔科夫之旅1",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false
+            }
+        ]
+    },
+    "塔科夫之旅2": {
+        "ID": "塔科夫之旅2",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter1.png",
+        "TraderID": "5ac3b934156ae10c4430e83c",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "visit",
+                    "id": "塔科夫之旅2_立交桥转移点踩点",
+                    "oneraid": true,
+                    "zoneid": "story_chapter1_transit_visit_intercharge_to_custom"
+                },
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅2_立交桥转移",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 128,
+                    "status": 32,
+                    "visible": [
+                        "塔科夫之旅2_立交桥转移点踩点"
+                    ],
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅2_海关撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 1,
+                    "status": 3,
+                    "visible": [
+                        "塔科夫之旅2_立交桥转移"
+                    ],
+                    "chooseexitpoint": false
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "trader",
+                "ID": "塔科夫之旅2_Skier解锁",
+                "Trader": "58330581ace78e27b8b10cee",
+                "Quest": "塔科夫之旅2",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false
+            }
+        ]
+    },
+    "塔科夫之旅3": {
+        "ID": "塔科夫之旅3",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter1.png",
+        "TraderID": "58330581ace78e27b8b10cee",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "handgroup",
+                    "id": "塔科夫之旅3_建筑材料",
+                    "inraid": true,
+                    "itemgroup": [
+                        "57347c5b245977448d35f6e1"
+                    ],
+                    "tags": [
+                        "建筑材料"
+                    ],
+                    "count": 5
+                },
+                {
+                    "$type": "visit",
+                    "id": "塔科夫之旅3_海关转移点踩点",
+                    "oneraid": true,
+                    "visible": [
+                        "塔科夫之旅3_建筑材料"
+                    ],
+                    "zoneid": "story_chapter1_transit_visit_custom_to_factory"
+                },
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅3_海关转移",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 1,
+                    "status": 32,
+                    "visible": [
+                        "塔科夫之旅3_海关转移点踩点"
+                    ],
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅3_工厂撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 12,
+                    "status": 3,
+                    "visible": [
+                        "塔科夫之旅3_海关转移"
+                    ],
+                    "chooseexitpoint": false
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "trader",
+                "ID": "塔科夫之旅3_机械师解锁",
+                "Trader": "5a7c2eca46aef81a7ca2145d",
+                "Quest": "塔科夫之旅3",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false
+            }
+        ]
+    },
+    "塔科夫之旅4": {
+        "ID": "塔科夫之旅4",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter1.png",
+        "TraderID": "5a7c2eca46aef81a7ca2145d",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "handgroup",
+                    "id": "塔科夫之旅4_武器",
+                    "inraid": true,
+                    "itemgroup": [
+                        "5447a9cd4bdc2dbd208b4567"
+                    ],
+                    "tags": [
+                        "突击卡宾枪",
+                        "突击步枪",
+                        "精确射手步枪",
+                        "手枪",
+                        "霰弹枪",
+                        "冲锋枪",
+                        "栓动式步枪",
+                        "机枪",
+                        "榴弹发射器",
+                        "特殊武器"
+                    ],
+                    "durability": [
+                        0,
+                        100
+                    ],
+                    "count": 2
+                },
+                {
+                    "$type": "visit",
+                    "id": "塔科夫之旅4_工厂转移点踩点",
+                    "oneraid": true,
+                    "visible": [
+                        "塔科夫之旅4_武器"
+                    ],
+                    "zoneid": "story_chapter1_transit_visit_factory_to_woods"
+                },
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅4_工厂转移",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 12,
+                    "status": 32,
+                    "visible": [
+                        "塔科夫之旅4_工厂转移点踩点"
+                    ],
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅4_森林撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 2,
+                    "status": 3,
+                    "visible": [
+                        "塔科夫之旅4_工厂转移"
+                    ],
+                    "chooseexitpoint": false
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "trader",
+                "ID": "塔科夫之旅4_俄商解锁",
+                "Trader": "54cb50c76803fa8b248b4571",
+                "Quest": "塔科夫之旅4",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false
+            }
+        ]
+    },
+    "塔科夫之旅5": {
+        "ID": "塔科夫之旅5",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter1.png",
+        "TraderID": "54cb50c76803fa8b248b4571",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "visit",
+                    "id": "塔科夫之旅5_海岸线码头踩点",
+                    "oneraid": true,
+                    "zoneid": "story_chapter1_shoreline_terminal"
+                },
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅5_海岸线撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 32,
+                    "status": 3,
+                    "visible": [
+                        "塔科夫之旅5_海岸线码头踩点"
+                    ],
+                    "chooseexitpoint": false
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "塔科夫之旅6": {
+        "ID": "塔科夫之旅6",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter1.png",
+        "TraderID": "58330581ace78e27b8b10cee",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "kill",
+                    "id": "塔科夫之旅6_消灭目标",
+                    "oneraid": true,
+                    "onesession": true,
+                    "count": 3,
+                    "bot": "Any",
+                    "role": [],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 2,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                },
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅6_森林撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 2,
+                    "status": 3,
+                    "visible": [
+                        "塔科夫之旅6_消灭目标"
+                    ],
+                    "chooseexitpoint": false
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "trader",
+                "ID": "塔科夫之旅6_美商解锁",
+                "Trader": "5935c25fb3acc3127c3d8cd9",
+                "Quest": "塔科夫之旅6",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false
+            }
+        ]
+    },
+    "塔科夫之旅7": {
+        "ID": "塔科夫之旅7",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter1.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "quest",
+                    "id": "塔科夫之旅7_过路费1",
+                    "questid": "过路费1",
+                    "status": 16
+                },
+                {
+                    "$type": "quest",
+                    "id": "塔科夫之旅7_过路费2",
+                    "questid": "过路费2",
+                    "status": 16
+                },
+                {
+                    "$type": "visit",
+                    "id": "塔科夫之旅7_海关转移点踩点",
+                    "oneraid": true,
+                    "visible": [
+                        "塔科夫之旅7_过路费1",
+                        "塔科夫之旅7_过路费2"
+                    ],
+                    "zoneid": "story_chapter1_transit_visit_custom_to_reserve"
+                },
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅7_海关转移",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 1,
+                    "status": 32,
+                    "visible": [
+                        "塔科夫之旅7_海关转移点踩点"
+                    ],
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "visit",
+                    "id": "塔科夫之旅7_储备站转移点踩点",
+                    "oneraid": true,
+                    "visible": [
+                        "塔科夫之旅7_海关转移"
+                    ],
+                    "zoneid": "story_chapter1_transit_visit_reserve_to_lighthouse"
+                },
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅7_储备站转移",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 64,
+                    "status": 32,
+                    "visible": [
+                        "塔科夫之旅7_储备站转移点踩点"
+                    ],
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "visit",
+                    "id": "塔科夫之旅7_灯塔踩点",
+                    "oneraid": true,
+                    "visible": [
+                        "塔科夫之旅7_储备站转移"
+                    ],
+                    "zoneid": "meh_48_transponder_area_check_1"
+                },
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅7_灯塔撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 256,
+                    "status": 3,
+                    "visible": [
+                        "塔科夫之旅7_灯塔踩点"
+                    ],
+                    "chooseexitpoint": false
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "过路费1": {
+        "ID": "过路费1",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/5d77a10586f7745041358b41.jpg",
+        "TraderID": "54cb50c76803fa8b248b4571",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "kill",
+                    "id": "过路费1_消灭PMC",
+                    "oneraid": false,
+                    "onesession": false,
+                    "count": 5,
+                    "bot": "AnyPmc",
+                    "role": [],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "modblacklist": [],
+                    "location": 0,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                },
+                {
+                    "$type": "handgroup",
+                    "id": "过路费1_上交狗牌",
+                    "inraid": true,
+                    "itemgroup": [],
+                    "tags": [
+                        "USEC狗牌",
+                        "BEAR狗牌"
+                    ],
+                    "count": 5
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "过路费2": {
+        "ID": "过路费2",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/5a27c50f86f7740b3d65e16a.jpg",
+        "TraderID": "5935c25fb3acc3127c3d8cd9",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "hand",
+                    "id": "过路费2_上交美元",
+                    "inraid": false,
+                    "itemid": "5696686a4bdc2da3298b456a",
+                    "count": 20000
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "塔科夫之旅8": {
+        "ID": "塔科夫之旅8",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter1.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "塔科夫之旅8_寻物_白卡",
+                    "inraid": false,
+                    "itemid": "5c94bbff86f7747ee735c08f",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "塔科夫之旅9": {
+        "ID": "塔科夫之旅9",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter1.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "visit",
+                    "id": "塔科夫之旅9_实验室入口踩点",
+                    "oneraid": true,
+                    "zoneid": "story_chapter1_transit_visit_to_lab"
+                },
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅9_转移到实验室",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 524,
+                    "status": 32,
+                    "visible": [
+                        "塔科夫之旅9_实验室入口踩点"
+                    ],
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "visit",
+                    "id": "塔科夫之旅9_实验室机房踩点",
+                    "oneraid": true,
+                    "visible": [
+                        "塔科夫之旅9_转移到实验室"
+                    ],
+                    "zoneid": "story_chapter1_visit_server_room_lab"
+                },
+                {
+                    "$type": "visit",
+                    "id": "塔科夫之旅9_实验室经理办踩点",
+                    "oneraid": true,
+                    "visible": [
+                        "塔科夫之旅9_转移到实验室"
+                    ],
+                    "zoneid": "story_chapter1_visit_office_room_lab"
+                },
+                {
+                    "$type": "visit",
+                    "id": "塔科夫之旅9_实验室排水系统踩点",
+                    "oneraid": true,
+                    "visible": [
+                        "塔科夫之旅9_转移到实验室"
+                    ],
+                    "zoneid": "story_chapter1_visit_exifil_drainage_lab"
+                },
+                {
+                    "$type": "exit",
+                    "id": "塔科夫之旅9_实验室撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 16,
+                    "status": 3,
+                    "visible": [
+                        "塔科夫之旅9_实验室机房踩点",
+                        "塔科夫之旅9_实验室经理办踩点",
+                        "塔科夫之旅9_实验室排水系统踩点"
+                    ],
+                    "chooseexitpoint": false
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "achievement",
+                "Target": "探路者",
+                "Quest": "塔科夫之旅9",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "塔科夫之旅9_成就奖励"
+            }
+        ]
+    }
+}

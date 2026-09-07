@@ -1,0 +1,74 @@
+{
+    "后室墙面": {
+        "_id": "后室墙面",
+        "_name": "Backroom_Wall",
+        "_parent": "67373f170eca6e03ab0d5391",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Name": "后室墙面",
+            "EName": "后室墙面",
+            "ShortName": "后室墙面",
+            "Description": "后室墙面",
+            "ProfileVersions": [],
+            "Side": [
+                "Usec",
+                "Bear"
+            ],
+            "AssetPath": {
+                "path": "assets/hideout/wall_wallpaper.bundle",
+                "rcid": ""
+            },
+            "IsDeco": true,
+            "HideGarbage": true
+        }
+    },
+    "后室地砖": {
+        "_id": "后室地砖",
+        "_name": "Backroom_Floor",
+        "_parent": "67373f170eca6e03ab0d5391",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Name": "后室地砖",
+            "EName": "后室地砖",
+            "ShortName": "后室地砖",
+            "Description": "后室地砖",
+            "ProfileVersions": [],
+            "Side": [
+                "Usec",
+                "Bear"
+            ],
+            "AssetPath": {
+                "path": "assets/hideout/floor_story_04_for_humanity.bundle",
+                "rcid": ""
+            },
+            "IsDeco": true,
+            "HideGarbage": true
+        }
+    },
+    "后室天花板": {
+        "_id": "后室天花板",
+        "_name": "Backroom_Ceiling",
+        "_parent": "67373f170eca6e03ab0d5391",
+        "_type": "Item",
+        "_props": {
+            "AvailableAsDefault": false,
+            "Name": "后室天花板",
+            "EName": "后室天花板",
+            "ShortName": "后室天花板",
+            "Description": "后室天花板",
+            "ProfileVersions": [],
+            "Side": [
+                "Usec",
+                "Bear"
+            ],
+            "AssetPath": {
+                "path": "assets/hideout/ceiling_story_04_for_humanity.bundle",
+                "rcid": ""
+            },
+            "IsDeco": true,
+            "HideGarbage": true
+        }
+    }
+}

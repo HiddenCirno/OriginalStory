@@ -1,0 +1,70 @@
+{
+    "迷宫": {
+        "id": "迷宫",
+        "prequestdata": {
+            "Batya6": {
+                "state": 16,
+                "cdtime": 10800,
+                "extracdtime": 21600
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "迷宫1": {
+        "id": "迷宫1",
+        "prequestdata": {
+            "迷宫": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "黄金之茧": {
+        "id": "黄金之茧",
+        "prequestdata": {
+            "迷宫1": {
+                "state": 4
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "迷宫2": {
+        "id": "迷宫2",
+        "prequestdata": {
+            "迷宫1": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "迷宫3": {
+        "id": "迷宫3",
+        "prequestdata": {
+            "迷宫2": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "迷宫4": {
+        "id": "迷宫4",
+        "prequestdata": {
+            "迷宫3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    }
+}

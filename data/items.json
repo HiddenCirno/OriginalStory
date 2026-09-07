@@ -1,0 +1,4432 @@
+{
+    "未知设备碎片": {
+        "_id": "未知设备碎片",
+        "_targetid": "59e35de086f7741778269d84",
+        "_name": "未知设备碎片",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 2,
+            "Width": 3,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/quest/item_quest_mysterious_device/item_quest_mysterious_device.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "未知设备碎片",
+            "ShortName": "未知设备",
+            "Description": "某个设备的碎片，显然已经引爆过了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "TarkovStreets",
+                "locationId": "(190.5135,0.1849,228.496)",
+                "probability": 1,
+                "template": {
+                    "Id": "未知设备碎片刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 190.5135,
+                        "y": 0.1849,
+                        "z": 228.496
+                    },
+                    "Rotation": {
+                        "x": 0.0841,
+                        "y": 106.456,
+                        "z": 0.1239
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "未知设备碎片刷新位置",
+                    "Items": [
+                        {
+                            "_id": "未知设备碎片刷新位置",
+                            "_tpl": "未知设备碎片"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "集成入侵电元": {
+        "_id": "集成入侵电元",
+        "_targetid": "5991b51486f77447b112d44f",
+        "_name": "集成入侵电元",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "orange",
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/quest/item_quest_hacktool_mechanic/item_quest_hacktool_mechanic.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "本地网络黑客入侵装置",
+            "ShortName": "LAN黑客",
+            "Description": "能够与数据库与服务器建立远程安全连接的入侵装置。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "5b47574386f77428ca22b345",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "1156笔记": {
+        "_id": "1156笔记",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "1156笔记",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note/item_info_note_quest_product1156.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "提到 #1156 项目的笔记",
+            "ShortName": "1156笔记",
+            "Description": "一张手写的笔记，就这么被丢在 TerraGroup 秘密实验室的车间里。\n\n没错，1156 号对象的蓝图得用平信寄出\n我猜上面的人觉得没人会突发奇想\n在一堆民用包裹里搜查这种机密。\n他们已经知道包裹在诺文斯克的消息了。\n从现在开始，所有指示\n只能通过书面或口头进行！",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "laboratory",
+                "locationId": "(-194.8518,4.9322,-401.0424)",
+                "probability": 1,
+                "template": {
+                    "Id": "1156笔记刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -194.8518,
+                        "y": 4.9322,
+                        "z": -401.0424
+                    },
+                    "Rotation": {
+                        "x": 0.0098,
+                        "y": 95.16,
+                        "z": 0.0543
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "1156笔记刷新位置",
+                    "Items": [
+                        {
+                            "_id": "1156笔记刷新位置",
+                            "_tpl": "1156笔记"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "邮政磁带1": {
+        "_id": "邮政磁带1",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "邮政磁带1",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_courier_01.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "俄罗斯邮政录音带 5.11/ 001",
+            "ShortName": "邮政1",
+            "Description": "俄罗斯邮政用来录制旗下邮递员工作通话的录音带。这盘带子记录了 5 月 11 日的第一通电话。\n\n应答机：您好，您已接通俄罗斯邮政快递服务。所有客服人员目前均在通话中，请在听到提示音后留言。\n\n邮差：他妈的简直是一团糟！他们在路上设了检查站，路过的所有车辆都要拦下来检查，队伍排了好几公里长。\n\n邮差：我前面的卡车司机和检查的人吵了起来，结果他们居然掏出枪来把他给毙了！你他妈听得到吗？！\n\n邮差：流弹打中了我的车！我差点就交代在这儿了！你猜怎么着，一个月就挣这么点，我玩什么命呢。件我不派了，我走也要走回家。\n\n邮差：车子我扔在这了，所有的包裹都在车里。我的命比这些傻逼货要紧多了。要是你们派哪个倒霉蛋来找货——记得钥匙……钥匙我压在车轮下面了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "TarkovStreets",
+                "locationId": "(39.8503,1.9339,114.8964)",
+                "probability": 1,
+                "template": {
+                    "Id": "邮政磁带1刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 39.8503,
+                        "y": 1.9339,
+                        "z": 114.8964
+                    },
+                    "Rotation": {
+                        "x": 359.4397,
+                        "y": 199.1856,
+                        "z": 0.2872
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "邮政磁带1刷新位置",
+                    "Items": [
+                        {
+                            "_id": "邮政磁带1刷新位置",
+                            "_tpl": "邮政磁带1"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "邮政磁带2": {
+        "_id": "邮政磁带2",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "邮政磁带2",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_courier_02.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "俄罗斯邮政录音带 5.11/ 002",
+            "ShortName": "邮政2",
+            "Description": "俄罗斯邮政用来录制旗下邮递员工作通话的录音带。这盘带子记录了 5 月 11 日的第二通电话。\n\n应答机：您好，您已接通俄罗斯邮政快递服务。所有客服人员目前均在通话中，请在听到提示音后留言。\n\n邮差：邮递员奥金佐夫呼叫，工号 22909。\n\n邮差：这里的情况比我想的还要糟糕，一半的路都被封上了。我不知道今天还能不能离开塔科夫市。\n\n邮差：告诉收件人，如果接到呼叫中心的电话千万别挂掉。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "TarkovStreets",
+                "locationId": "(42.5849,2.6955,124.881)",
+                "probability": 1,
+                "template": {
+                    "Id": "邮政磁带2刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 42.5849,
+                        "y": 2.6955,
+                        "z": 124.881
+                    },
+                    "Rotation": {
+                        "x": 359.7845,
+                        "y": 81.2121,
+                        "z": 0.3944
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "邮政磁带2刷新位置",
+                    "Items": [
+                        {
+                            "_id": "邮政磁带2刷新位置",
+                            "_tpl": "邮政磁带2"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "邮政磁带3": {
+        "_id": "邮政磁带3",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "邮政磁带3",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_courier_03.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "俄罗斯邮政录音带 5.11/ 003",
+            "ShortName": "邮政3",
+            "Description": "俄罗斯邮政用来录制旗下邮递员工作通话的录音带。这盘带子记录了 5 月 11 日的第三通电话。\n\n应答机：您好，您已接通俄罗斯邮政快递服务。所有客服人员目前均在通话中，请在听到提示音后留言。\n\n邮差：邮递员奥金佐夫呼叫，工号 22909。\n\n邮差：我本来要把一单加急快件送到诺文斯克的，但路上都他——堵上了，所以这个件应该要延误了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "TarkovStreets",
+                "locationId": "(51.884,2.0751,94.8354)",
+                "probability": 1,
+                "template": {
+                    "Id": "邮政磁带3刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 51.884,
+                        "y": 2.0751,
+                        "z": 94.8354
+                    },
+                    "Rotation": {
+                        "x": 359.948,
+                        "y": 175.8875,
+                        "z": 359.9537
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "邮政磁带3刷新位置",
+                    "Items": [
+                        {
+                            "_id": "邮政磁带3刷新位置",
+                            "_tpl": "邮政磁带3"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "1156规格文件": {
+        "_id": "1156规格文件",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "1156规格文件",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_terragroup.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "#1156 项目规格文件",
+            "ShortName": "#1156规格",
+            "Description": "#1156 项目的完整技术规格说明文件，看样子有人打算把这件原型武器从塔科夫市转移到诺文斯克特区。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "TarkovStreets",
+                "locationId": "(35.7083,1.2009,129.5118)",
+                "probability": 1,
+                "template": {
+                    "Id": "1156规格文件刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 35.7083,
+                        "y": 1.2009,
+                        "z": 129.5118
+                    },
+                    "Rotation": {
+                        "x": 359.9911,
+                        "y": 159.4257,
+                        "z": 179.8963
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "1156规格文件刷新位置",
+                    "Items": [
+                        {
+                            "_id": "1156规格文件刷新位置",
+                            "_tpl": "1156规格文件"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "G型越野车上的U盘": {
+        "_id": "G型越野车上的U盘",
+        "_targetid": "590c621186f774138d11ea29",
+        "_name": "G型越野车上的U盘",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_flash_card_slider.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "G 型越野车上的 U 盘",
+            "ShortName": "GW",
+            "Description": "从某位 TerraGroup 高管抛弃的高级越野车上找到的 U 盘。里面肯定有什么重要的东西，至于具体内容是啥就不太清楚了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Shoreline",
+                "locationId": "(336.8778,-59.2574,317.2835)",
+                "probability": 1,
+                "template": {
+                    "Id": "G型越野车上的U盘刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 336.8778,
+                        "y": -59.2574,
+                        "z": 317.2835
+                    },
+                    "Rotation": {
+                        "x": 278.1592,
+                        "y": 149.8152,
+                        "z": 85.7122
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "G型越野车上的U盘刷新位置",
+                    "Items": [
+                        {
+                            "_id": "G型越野车上的U盘刷新位置",
+                            "_tpl": "G型越野车上的U盘"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "机组对话记录": {
+        "_id": "机组对话记录",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "机组对话记录",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_cardboard.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "机组对话记录",
+            "ShortName": "打印件",
+            "Description": "打印出来的文字版飞行员坠机前最后通话录音记录。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Shoreline",
+                "locationId": "(407.1127,-53.2604,-40.1436)",
+                "probability": 1,
+                "template": {
+                    "Id": "机组对话记录刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 407.1127,
+                        "y": -53.2604,
+                        "z": -40.1436
+                    },
+                    "Rotation": {
+                        "x": 2.3312,
+                        "y": 109.3751,
+                        "z": 359.904
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "机组对话记录刷新位置",
+                    "Items": [
+                        {
+                            "_id": "机组对话记录刷新位置",
+                            "_tpl": "机组对话记录"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "Elektronik加密U盘": {
+        "_id": "Elektronik加密U盘",
+        "_targetid": "590c621186f774138d11ea29",
+        "_name": "Elektronik加密U盘",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_flash_card_ironkey.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "Elektronik 的加密 U 盘",
+            "ShortName": "Elektronik",
+            "Description": "Elektronik 用来记录坠毁飞机机组谈话的 U 盘，具有相当高的情报价值。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Shoreline",
+                "locationId": "(409.0281,-52.7754,-39.7229)",
+                "probability": 1,
+                "template": {
+                    "Id": "Elektronik加密U盘刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 409.0281,
+                        "y": -52.7754,
+                        "z": -39.7229
+                    },
+                    "Rotation": {
+                        "x": 89.8022,
+                        "y": 344.2882,
+                        "z": 268.5123
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "Elektronik加密U盘刷新位置",
+                    "Items": [
+                        {
+                            "_id": "Elektronik加密U盘刷新位置",
+                            "_tpl": "Elektronik加密U盘"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "加固手提箱": {
+        "_id": "加固手提箱",
+        "_targetid": "59fafb5d86f774067a6f2084",
+        "_name": "加固手提箱",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 4,
+            "Width": 4,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_quest_briefcase/item_info_quest_briefcase.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "加固手提箱",
+            "ShortName": "加固手提箱",
+            "Description": "一个神秘的公文包，显然里面装着逃出塔科夫的某种“门票”。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Woods",
+                "locationId": "(-248.8164,12.0084,-23.9099)",
+                "probability": 1,
+                "template": {
+                    "Id": "加固手提箱刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -248.8164,
+                        "y": 12.0084,
+                        "z": -23.9099
+                    },
+                    "Rotation": {
+                        "x": 72.1213,
+                        "y": 175.5918,
+                        "z": 326.2498
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "加固手提箱刷新位置",
+                    "Items": [
+                        {
+                            "_id": "加固手提箱刷新位置",
+                            "_tpl": "加固手提箱"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "黑匣子": {
+        "_id": "黑匣子",
+        "_targetid": "590c621186f774138d11ea29",
+        "_name": "黑匣子",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 2,
+            "Width": 3,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_quest_flight_recorder/item_info_quest_flight_recorder.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "坠毁飞机的飞行记录仪",
+            "ShortName": "飞行记录仪",
+            "Description": "从坠毁在 Priozersk 自然保护区内的飞机上回收的飞行记录仪，对于了解坠毁前机上发生的情况至关重要。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Woods",
+                "locationId": "(-254.9541,10.6676,-33.2422)",
+                "probability": 1,
+                "template": {
+                    "Id": "黑匣子刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -254.9541,
+                        "y": 10.6676,
+                        "z": -33.2422
+                    },
+                    "Rotation": {
+                        "x": 40.039,
+                        "y": 343.8063,
+                        "z": 25.3647
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "黑匣子刷新位置",
+                    "Items": [
+                        {
+                            "_id": "黑匣子刷新位置",
+                            "_tpl": "黑匣子"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "Bogatyr小队臂章": {
+        "_id": "Bogatyr小队臂章",
+        "_targetid": "5e2af4d286f7746d4159f07a",
+        "_name": "Bogatyr小队臂章",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/quest/item_quest_bogatir_patch/item_quest_bogatir_patch.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "Bogatyr 小队臂章",
+            "ShortName": "Bogatyrs",
+            "Description": "某个 BEAR 特种单位的臂章。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "RezervBase",
+                "locationId": "(-63.641,2.7959,9.1456)",
+                "probability": 1,
+                "template": {
+                    "Id": "Bogatyr小队臂章刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -63.641,
+                        "y": 2.7959,
+                        "z": 9.1456
+                    },
+                    "Rotation": {
+                        "x": 359.7298,
+                        "y": 165.089,
+                        "z": 359.9528
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "Bogatyr小队臂章刷新位置",
+                    "Items": [
+                        {
+                            "_id": "Bogatyr小队臂章刷新位置",
+                            "_tpl": "Bogatyr小队臂章"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "Moreman的手机": {
+        "_id": "Moreman的手机",
+        "_targetid": "56742c324bdc2d150f8b456d",
+        "_name": "Moreman的手机",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_electr_gphonex/item_barter_electr_gphonex.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "Moreman 的手机",
+            "ShortName": "Moreman",
+            "Description": "属于 Bogatyr 小队成员的个人手机，里面也许还能提取出些许有用的信息。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Woods",
+                "locationId": "(-386.4499,3.2934,21.5543)",
+                "probability": 1,
+                "template": {
+                    "Id": "Moreman的手机刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -386.4499,
+                        "y": 3.2934,
+                        "z": 21.5543
+                    },
+                    "Rotation": {
+                        "x": 358.9205,
+                        "y": 285.327,
+                        "z": 182.5476
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "Moreman的手机刷新位置",
+                    "Items": [
+                        {
+                            "_id": "Moreman的手机刷新位置",
+                            "_tpl": "Moreman的手机"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "Moreman的录音带1": {
+        "_id": "Moreman的录音带1",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "Moreman的录音带1",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_moreman_01.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Moreman 的录音带 #1",
+            "ShortName": "Morem. 1",
+            "Description": "这盘录音带记录了从 Moreman 损坏的手机里恢复出的一段录音。\n\nMoreman: 我希望有人能收到我们的信号。我不清楚我们还能不能活着撤离了，所以还是录了这段录音。\n\nMoreman: 就在我们快要靠近撤离集结点的时候，Yastreb 突然发难，直接朝自己人开了枪！虽然我们马上就把他放倒了，但小队已经陷入了埋伏：那些混蛋从四面八方不断冲上来想要包围我们。真见鬼！我猜一开始……一开始的枪声就是动手的信号，操他妈的。真该死的，王八操的的叛徒……\n\nMoreman: 我们还能继续前进，但队伍被打惨了。需要支援。听着伙计们，我不怪你",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "Moreman的录音带2": {
+        "_id": "Moreman的录音带2",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "Moreman的录音带2",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_moreman_02.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Moreman 的录音带 2",
+            "ShortName": "Morem. 2",
+            "Description": "从 Moreman 损坏手机里恢复的又一段录音，成功转录到了这卷录音带上。\n\nMoreman: ……他就像只老母鸡一样！\n\nTaran: 说说看。\n\nMoreman: 你不明白吧，Taran？就像老母鸡一样护崽！还记得上次……上次 Voevoda 是怎么把我们从交火线上带出来的吗？让我们像小鸡仔一样排成一列，慢慢走出来。真是他妈的……呵呵……\n\nTaran: 没错，我记得。但至少没人受伤，而且任务也完成了。\n\nMoreman: 我可没说这是坏事，对吧！你把我当成什么人了？在我眼里，我们的指挥官就像自家老爹一样亲。\n\nVoevoda: 在嚷嚷什么呢，崽子们？\n\nMoreman: 指挥官同志，这里的一切都和教科书一样井井有条！来和我们一起坐坐吧！\n\nVoevoda: 还是不了。好了，做好准备，我们马上就要出发了。\n\nMoreman: 遵命，指挥官同志！",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "提到将军的笔记": {
+        "_id": "提到将军的笔记",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "提到将军的笔记",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note/item_info_note_bogatir_mention_general.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "提到将军的笔记",
+            "ShortName": "将军",
+            "Description": "来自邪教徒的笔记，里面提到了某位将军，以及灯塔的“守望者”。\n\n灯塔的守望者指向 将军\n他的话语就是无名者的命令，因而他所言的，都是真理！\n将军将向我们揭露加速降临的奥秘\n让见证者们成为点燃旧世界的\n第一束烈火！",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Woods",
+                "locationId": "(198.6764,0.2213,-5.2221)",
+                "probability": 1,
+                "template": {
+                    "Id": "提到将军的笔记刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 198.6764,
+                        "y": 0.2213,
+                        "z": -5.2221
+                    },
+                    "Rotation": {
+                        "x": 3.9139,
+                        "y": 129.2108,
+                        "z": 289.7068
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "提到将军的笔记刷新位置",
+                    "Items": [
+                        {
+                            "_id": "提到将军的笔记刷新位置",
+                            "_tpl": "提到将军的笔记"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "间谍网络部署情况报告": {
+        "_id": "间谍网络部署情况报告",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "间谍网络部署情况报告",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_cardboard.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "间谍网络部署情况报告",
+            "ShortName": "间谍网络",
+            "Description": "一份来自无名者的报告，里面宣称其间谍已经成功渗透进入了多个国家的重要政府部门，即使在俄罗斯以外仍然具有相当的影响力。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Lighthouse",
+                "locationId": "(442.4085,32.5817,459.8489)",
+                "probability": 1,
+                "template": {
+                    "Id": "间谍网络部署情况报告刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 442.4085,
+                        "y": 32.5817,
+                        "z": 459.8489
+                    },
+                    "Rotation": {
+                        "x": 342.211,
+                        "y": 13.6322,
+                        "z": 0.4413
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "间谍网络部署情况报告刷新位置",
+                    "Items": [
+                        {
+                            "_id": "间谍网络部署情况报告刷新位置",
+                            "_tpl": "间谍网络部署情况报告"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "邪教受害者录音带2": {
+        "_id": "邪教受害者录音带2",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "邪教受害者录音带2",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_igor_02.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "邪教受害者录音带 #2",
+            "ShortName": "受害者2",
+            "Description": "从邪教徒酷刑室散乱的个人物品中找到的一卷录音带。看样子邪教徒是有意选中了带子的主人才下的手。\n\n邪教受害者：上一盘磁带到头了，没想到磁带这么不经用。好了，我会快点说完的。\n\n邪教受害者：无论如何，那些家伙……那些穿着长袍的怪胎……他们一直在监视着我。我刚刚在门上找到了一张纸条。\n\n邪教受害者：这条子就夹在门和门框中间——反正就是这样！上面又写了那些关于“世界之眼”的事情，就在我看字条的时候，那个该死的符号直勾勾地盯着我……那些祭司把我称作是受选者！\n\n邪教受害者：我必须得跑了，这段是我去火车站的路上录的。我必须得离开这个鬼地方，不管用什么办法都得逃出去！",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Lighthouse",
+                "locationId": "(35.1664,7.0619,-637.1552)",
+                "probability": 1,
+                "template": {
+                    "Id": "邪教受害者录音带2刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 35.1664,
+                        "y": 7.0619,
+                        "z": -637.1552
+                    },
+                    "Rotation": {
+                        "x": 0.0515,
+                        "y": 330.5283,
+                        "z": 0.1012
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "邪教受害者录音带2刷新位置",
+                    "Items": [
+                        {
+                            "_id": "邪教受害者录音带2刷新位置",
+                            "_tpl": "邪教受害者录音带2"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "降临之书": {
+        "_id": "降临之书",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "降临之书",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 2,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_book_coming_closed.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "降临之书",
+            "ShortName": "降临之书",
+            "Description": "一本自制的书，里面写满了关于“降临”、“无名者”以及旧世界消亡相关的内容以及画作。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "TarkovStreets",
+                "locationId": "(-54.5546,10.8264,-146.0206)",
+                "probability": 1,
+                "template": {
+                    "Id": "降临之书刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -54.5546,
+                        "y": 10.8264,
+                        "z": -146.0206
+                    },
+                    "Rotation": {
+                        "x": 0.8837,
+                        "y": 265.7343,
+                        "z": 0.2038
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "降临之书刷新位置",
+                    "Items": [
+                        {
+                            "_id": "降临之书刷新位置",
+                            "_tpl": "降临之书"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "邪教受害者录音带1": {
+        "_id": "邪教受害者录音带1",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "邪教受害者录音带1",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_igor_01.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "邪教受害者录音带 #1",
+            "ShortName": "受害者1",
+            "Description": "从邪教受害者公寓房间里找到的一卷录音带，里面提到了某种叫“世界之眼”的东西。\n\n邪教受害者：第一卷带子，时间是……现在是下午 2:19。\n\n邪教受害者：我的名字是伊戈尔……像这样录音简直像是什么秘密特工一样。\n\n邪教受害者：甚至还是拿录音机录的。但至少那些怪人没法远程黑进磁带，要是换成手机的话……\n\n邪教受害者：昨天有人从门下面把一本书塞了进来，书上到处画满了那个瘆人的符号，和城里最近到处冒出来的鬼画符一模一样……简直吓死人了。\n\n邪教受害者：一开始我还以为是什么恶作剧，比如，就像那种恶搞电视节目一样，整人然后观察反应什么的，但搞成这样也太……\n\n邪教受害者：话说回来，那本书！我花了一整个晚上把它看了一遍。里面全都是……都是一些奇谈怪论，但是看样子他们是认真的。\n\n邪教受害者：并不是我一开始以为的全是胡扯，绝对不是。更像是……我也说不清楚，就像是写这本书的人的确掌握了某种禁忌的知识一样。\n\n邪教受害者：嗯，我在的 Cobalt 公司的确和 TerraGroup 有联系，在我工作的这几年里，我也掌握了不少消息。\n\n邪教受害者：所以书里提到的这些“赐福”什么的，听起来简直就是在说 TerraGroup 的项目，当然是不公开的那种。\n\n邪教受害者：我相当确定这帮人是在试着招募我，想把我拖进他们的……邪教里面。只不过这帮人的门道比“人民圣殿教”之类的东西更细。\n\n邪教受害者：他们觉得我能接触到什么“世界之眼”，因此他们需要我。我敢肯定，他们肯定不会就此收手，这一次是塞书，那下一回呢？\n\n邪教受害者：我必须得跑了。没错……是的，我得就此消失，低调行事，甚至回到布鲁日也得保持警惕。\n\n邪教受害者：他们一直在监视我，从头到尾都是这样。而我以为那只是我的妄想症作祟。该死，我甚至和医生聊了这个话题！\n\n邪教受害者：我早该相信自己的直觉，或许现在就不用丢下一切仓皇逃跑了。我……",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "TarkovStreets",
+                "locationId": "(-50.292,9.4163,-147.7957)",
+                "probability": 1,
+                "template": {
+                    "Id": "邪教受害者录音带1刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -50.292,
+                        "y": 9.4163,
+                        "z": -147.7957
+                    },
+                    "Rotation": {
+                        "x": 359.6942,
+                        "y": 177.9489,
+                        "z": 0.6112
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "邪教受害者录音带1刷新位置",
+                    "Items": [
+                        {
+                            "_id": "邪教受害者录音带1刷新位置",
+                            "_tpl": "邪教受害者录音带1"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "降临仪式的准备笔记": {
+        "_id": "降临仪式的准备笔记",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "降临仪式的准备笔记",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note/item_info_note_quest_sectantpriest_victim.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "降临仪式的准备笔记",
+            "ShortName": "降临",
+            "Description": "从笔记本上撕下来的一页纸，详细记载了降临仪式的准备流程。\n\n迎接降临的准备仪式已经开始！\n整个世界都被 蓝焰 点燃，旧时代的黄昏将至\n是时候将 世界之眼 托付给 全知者 了\n唯有守望者才能保护我们的记忆与思想！\n只有他们能将全人类的共同回忆延续到新世界\n只有到那个时候，大门 才会开启",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "TarkovStreets",
+                "locationId": "(-51.7094,10.0957,-144.3227)",
+                "probability": 1,
+                "template": {
+                    "Id": "降临仪式的准备笔记刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -51.7094,
+                        "y": 10.0957,
+                        "z": -144.3227
+                    },
+                    "Rotation": {
+                        "x": 359.3163,
+                        "y": 16.6637,
+                        "z": 0.302
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "降临仪式的准备笔记刷新位置",
+                    "Items": [
+                        {
+                            "_id": "降临仪式的准备笔记刷新位置",
+                            "_tpl": "降临仪式的准备笔记"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "邪教徒祭司的笔记": {
+        "_id": "邪教徒祭司的笔记",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "邪教徒祭司的笔记",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note/item_info_note_sectantpriest_eye.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "邪教徒祭司的笔记",
+            "ShortName": "祭司",
+            "Description": "写有邪教徒指示的一张便条。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "bigmap",
+                "locationId": "(183.2097,5.9843,184.8568)",
+                "probability": 1,
+                "template": {
+                    "Id": "邪教徒祭司的笔记刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 183.2097,
+                        "y": 5.9843,
+                        "z": 184.8568
+                    },
+                    "Rotation": {
+                        "x": 88.5085,
+                        "y": 13.84,
+                        "z": 355.5712
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "邪教徒祭司的笔记刷新位置",
+                    "Items": [
+                        {
+                            "_id": "邪教徒祭司的笔记刷新位置",
+                            "_tpl": "邪教徒祭司的笔记"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "损坏的Arshavin钥匙卡": {
+        "_id": "损坏的Arshavin钥匙卡",
+        "_targetid": "5c94bbff86f7747ee735c08f",
+        "_name": "损坏的Arshavin钥匙卡",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/content/items/spec/item_keycard_arshavin/item_keycard_quest_arshavin.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "14-4 KORD 站点 K.Arshavin 钥匙卡 (受损)",
+            "ShortName": "14-4损坏",
+            "Description": "签发给 K. Arshavin 的 14-4 KORD 站点钥匙卡。这玩意经历了长期风吹日晒，可能已经消磁了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Lighthouse",
+                "locationId": "(-137.3171,40.2241,107.0493)",
+                "probability": 1,
+                "template": {
+                    "Id": "损坏的Arshavin钥匙卡刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -137.3171,
+                        "y": 40.2241,
+                        "z": 107.0493
+                    },
+                    "Rotation": {
+                        "x": 7.3109,
+                        "y": 284.4268,
+                        "z": 352.6498
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "损坏的Arshavin钥匙卡刷新位置",
+                    "Items": [
+                        {
+                            "_id": "损坏的Arshavin钥匙卡刷新位置",
+                            "_tpl": "损坏的Arshavin钥匙卡"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "Arshavin钥匙卡": {
+        "_id": "Arshavin钥匙卡",
+        "_targetid": "5c94bbff86f7747ee735c08f",
+        "_name": "Arshavin钥匙卡",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/content/items/spec/item_keycard_arshavin/item_keycard_quest_arshavin.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "14-4 KORD 站点 K.Arshavin 钥匙卡 (修复)",
+            "ShortName": "14-4修复",
+            "Description": "这张修复完成的钥匙卡应该能进入 14-4 KORD 站点。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "神秘录音带": {
+        "_id": "神秘录音带",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "神秘录音带",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_cultists.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "神秘录音带",
+            "ShortName": "神秘录音",
+            "Description": "这卷录音带不知怎的出现在了 14-4 KORD 站点的保险箱里。要么是有人趁着服务器机房冷却系统启动的时候悄悄溜了进来，要么就是 <i>他们</i> 早就知道了接下来要发生的事情。\n\n祭司：世界的新主宰已经降临，流程已经开始了……新世界正在开始成型，而守望者们已经被选出。\n\n祭司：应当知道，世界之眼已经注目你很久了，所有的……你的全部所作所为都将镌刻在守望者们从旧世界延续到新世界的共同记忆中。不久之后，这将是尘世间唯一留有价值的的东西了。\n\n祭司：我早已知道你会来这里，这一切都已被预见到了。我们一直在等待能为我们服务的盲目者，为降临骑士的现身做好准备。而在你身上……我们能够感受到他。\n\n祭司：见证无名者的力量吧，不要等到为时已晚……",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "TarkovStreets",
+                "locationId": "(-203.5264,22.1958,-361.5796)",
+                "probability": 1,
+                "template": {
+                    "Id": "神秘录音带刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -203.5264,
+                        "y": 22.1958,
+                        "z": -361.5796
+                    },
+                    "Rotation": {
+                        "x": 0.0173,
+                        "y": 203.7573,
+                        "z": 0.5176
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "神秘录音带刷新位置",
+                    "Items": [
+                        {
+                            "_id": "神秘录音带刷新位置",
+                            "_tpl": "神秘录音带"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "Leshy的命令": {
+        "_id": "Leshy的命令",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "Leshy的命令",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note/item_info_note_comand_from_leshiy.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "Leshy 的命令",
+            "ShortName": "Leshy",
+            "Description": "一张纸条，上面记录着呼号 Leshy 的指挥官发布的命令。\n\n停止寻找出口！\n目标：在 #1156 项目处\n重新集结并坚守阵地。\n来自 Leshy 的命令\n\n",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Labyrinth",
+                "locationId": "(-15.0646,0.078,-22.7708)",
+                "probability": 1,
+                "template": {
+                    "Id": "Leshy的命令刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -15.0646,
+                        "y": 0.078,
+                        "z": -22.7708
+                    },
+                    "Rotation": {
+                        "x": 89.9802,
+                        "y": 182.985,
+                        "z": 0
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "Leshy的命令刷新位置",
+                    "Items": [
+                        {
+                            "_id": "Leshy的命令刷新位置",
+                            "_tpl": "Leshy的命令"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "Leshy的日志": {
+        "_id": "Leshy的日志",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "Leshy的日志",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note/item_info_notepad_a5_closed_01.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "Leshy 的日志",
+            "ShortName": "Leshy笔记",
+            "Description": "Leshy 留下的笔记，上面详细记载了他勘察“迷宫”的结果，以及突袭迷宫期间发生情况的报告。\n\n8 月 21 日\n16:32\n突袭行动相当顺利，所有 USEC 都被消灭了，只剩下设施工作人员需要处理。这些怕死鬼缩回了地下深处的地堡里，我们分成了三个小队开始搜索整个设施。这地方阴森恐怖，到处都是鲜血和尸骸，还散布着大量不可名状的工具，要么是在进行某种实验，或者干脆就是折磨人取乐的用具。\n\n8 月 21 日\n大约 18:00\n我们靠近那个神秘的 #1156 项目之后手表莫名其妙的停了。两支队伍继续搜查设施寻找那些集团的走狗，这地方真的是绕得要死，根本搞不清哪是哪。在追逐那些实验室技术员的时候，我们听到了骇人的尖叫。叫声太多太密了，这下面的人肯定比我们想的要多。我命令队员重新集结，准备在 #1156 附近展开防御，等待队伍中剩下的人到达。\n\n勉强打退了第一波进攻，我们在 1156 项目的车间里被大批敌人袭击，对方都是些没有武器的平民。尽管这些人看起来已经极度疲惫，但还是不死不休地涌来，显然是在某种药物的作用驱使下行动。鬼知道那些 TerraGroup 的混账们都在这些可怜虫身上打了什么。他们根本毫无组织，也不讲任何战术，几乎是在嗜血本能下进攻。Vasya 死了，还有两名队员受伤，弹药也不够了。必须尽快找到出口，不能再浪费时间了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Labyrinth",
+                "locationId": "(12.5484,0.0623,11.5363)",
+                "probability": 1,
+                "template": {
+                    "Id": "Leshy的日志刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 12.5484,
+                        "y": 0.0623,
+                        "z": 11.5363
+                    },
+                    "Rotation": {
+                        "x": -0.0013,
+                        "y": 74.1281,
+                        "z": -0.0034
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "Leshy的日志刷新位置",
+                    "Items": [
+                        {
+                            "_id": "Leshy的日志刷新位置",
+                            "_tpl": "Leshy的日志"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "死去科学家的录音带": {
+        "_id": "死去科学家的录音带",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "死去科学家的录音带",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_labyrinth.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "死去科学家的录音带",
+            "ShortName": "迷宫",
+            "Description": "一名 TerraGroup 科学家的遗言录音，在生命的最后时刻，他把自己锁在了“迷宫”的观察室内。\n\nTerraGroup 科学家：这里是尼古拉·沃罗年科。这个“迷宫”实在是所有 TerraGroup 设施里条件最简陋、设备最不完善的地方。我们已经和总部失去了联络，搞不好是哪个测试对象干的，把线路给弄断了……\n\nTerraGroup 科学家：BEAR 雇佣兵突袭了这个地方，为了保卫设施，我不得不把第 3 组和第 12 组的测试对象放了出去。\n\nTerraGroup 科学家：从之后的动静判断，现在外面应该只剩下测试对象了，我没有再听到那些 BEAR 的声音。\n\nTerraGroup 科学家：在迷宫进行的实验实在是太重要了，如果实验结果遗失，后果不堪设想。所以我把设施内的所有文件都收拢到一个文件夹里，然后冲进了下水道。\n\nTerraGroup 科学家：我不知道我还能不能赶到撤离点……但在那些 BEAR 围堵我们的时候，我从他们身上拿到了一把手枪。如果真的发生什么……这会是我的最后手段。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Labyrinth",
+                "locationId": "(9.4109,0.631,4.8243)",
+                "probability": 1,
+                "template": {
+                    "Id": "死去科学家的录音带刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 9.4109,
+                        "y": 0.631,
+                        "z": 4.8243
+                    },
+                    "Rotation": {
+                        "x": 2.9266,
+                        "y": 178.8058,
+                        "z": 358.1693
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "死去科学家的录音带刷新位置",
+                    "Items": [
+                        {
+                            "_id": "死去科学家的录音带刷新位置",
+                            "_tpl": "死去科学家的录音带"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "迷宫设施研发报告": {
+        "_id": "迷宫设施研发报告",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "迷宫设施研发报告",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note/item_info_plasticbag_labyrinth.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "“迷宫”设施研发报告",
+            "ShortName": "迷宫实验",
+            "Description": "沃罗年科有关 TerraGroup 在“迷宫”中对人类实验对象进行活体实验的详细报告。\n\n<width=75%><align=\"right\"><color=#a52a2aff><size=30><mark=#5B5B59>000000    00</mark><b>密</b></size></color></align>\n<align=\"right\"><color=#a52a2aff><size=24><b>阅后销毁</b></size></color></align>\n\n\n<size=22><mark=#5B5B59>000000000</mark><b>时间：</b><mark=#5B5B59>000. 00, 0000</mark><b> - 5 月 7 日, 20</b><mark=#5B5B59>00</mark></size>\n\n研发目标：\n<mark=#5B5B59>0000000 000 000000000000 00 00000 0000000000000 000000000000 0</mark>用实验性组分。\n\n\n在本报告期内，现场共对 14 组研究对象进行了检测。每组受试者人数在 5 至 25 人之间，具体数值取决于实验条件。部分实验因场地能力有限未能实施。第 9 组因“迷宫”设施存在污染风险及防护措施不足，已被转移至 Theta 基地。第 1 组则因相同原因被彻底清除。\n\n尽管如此，大部分实验仍然取得了显著成效，为实验室以及其它测试基地提供了必要的参考材料与结论以供验证。研究内容涵盖兴奋剂组分对人体的影响，以及在体能拓展领域的潜在应用，工作沿三条方向推进：\n1) 提高机体对各种恶劣条件的耐受性。\n2) 测试不同实验性生物制剂在人体的实际效果。\n3) 开发能够影响人类精神状态的试剂组分。\n\n\n\n<size=22><b>提高机体对各种恶劣条件的耐受性。</b></size>\n在研究过程中，受试者被置于多种条件下 (食物剥夺、长时间禁闭于狭小空间、失血量超过人体总血容量的 20/30/40%、伴随 ITP 出血评分 50 至 95 分的烧伤，乃至急性及亚急性中毒）。\n\nSJ6、eTG-c 以及 SJ1 在不同严重程度的中毒及伴有开放性创伤的中毒状态下仍表现出强大的稳定身体机能以及激活机体恢复潜力的效果。SJ15 以及 M.U.L.E. 则在机能正常的情况下展现出提升受试者活动时间的作用，增幅达 47-60%。\n\n因此研究结论是，SJ6、eTG-c 以及 SJ1 适合进行进一步迭代与开发。由于受试者缺乏专业训练对研究结果可能存在负面影响，因此如果应用于受过专门训练的作战人员，预期效果可能达到更高水平。但仍需进一步进行实地测试。</width>",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Shoreline",
+                "locationId": "(-271.9372,-65.5543,481.5093)",
+                "probability": 1,
+                "template": {
+                    "Id": "迷宫设施研发报告刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -271.9372,
+                        "y": -65.5543,
+                        "z": 481.5093
+                    },
+                    "Rotation": {
+                        "x": 30.5921,
+                        "y": 96.8163,
+                        "z": 181.0431
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "迷宫设施研发报告刷新位置",
+                    "Items": [
+                        {
+                            "_id": "迷宫设施研发报告刷新位置",
+                            "_tpl": "迷宫设施研发报告"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "货运传真": {
+        "_id": "货运传真",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "货运传真",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note/item_info_note_fax_blueice.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "货运传真",
+            "ShortName": "货运传真",
+            "Description": "针对特定货物运输说明的传真文件，部分信息用马克笔涂黑了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "laboratory",
+                "locationId": "(-141.0355,4.6731,-403.9117)",
+                "probability": 1,
+                "template": {
+                    "Id": "货运传真刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -141.0355,
+                        "y": 4.6731,
+                        "z": -403.9117
+                    },
+                    "Rotation": {
+                        "x": 90,
+                        "y": 91.1098,
+                        "z": 0
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "货运传真刷新位置",
+                    "Items": [
+                        {
+                            "_id": "货运传真刷新位置",
+                            "_tpl": "货运传真"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "TG文件": {
+        "_id": "TG文件",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "TG文件",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_terragrouplabs.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "更新企业协作流程的文件指示",
+            "ShortName": "TG文件",
+            "Description": "一份指示地区分部更新承包商协作流程的 TerraGroup 内部文件，部分信息被涂黑了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "laboratory",
+                "locationId": "(-158.0924,0.8774,-376.7183)",
+                "probability": 1,
+                "template": {
+                    "Id": "TG文件刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -158.0924,
+                        "y": 0.8774,
+                        "z": -376.7183
+                    },
+                    "Rotation": {
+                        "x": 359.9862,
+                        "y": 177.7405,
+                        "z": 0.0207
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "TG文件刷新位置",
+                    "Items": [
+                        {
+                            "_id": "TG文件刷新位置",
+                            "_tpl": "TG文件"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "货运清单": {
+        "_id": "货运清单",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "货运清单",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note/item_info_note_cargo_instruction.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "写有笔记的货运清单",
+            "ShortName": "清单",
+            "Description": "一份留有不少笔迹的货运清单。很明显，无论这批货物是什么，货主都不希望通过官方渠道将其转运出塔科夫。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "factory4_day",
+                "copyLocation": [
+                    "factory4_night"
+                ],
+                "locationId": "(-4.7929,0.8417,-16.4774)",
+                "probability": 1,
+                "template": {
+                    "Id": "货运清单刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -4.7929,
+                        "y": 0.8417,
+                        "z": -16.4774
+                    },
+                    "Rotation": {
+                        "x": -0.0052,
+                        "y": 121.3126,
+                        "z": 0.0055
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "货运清单刷新位置",
+                    "Items": [
+                        {
+                            "_id": "货运清单刷新位置",
+                            "_tpl": "货运清单"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "勒热夫斯基的硬盘": {
+        "_id": "勒热夫斯基的硬盘",
+        "_targetid": "590a386e86f77429692b27ab",
+        "_name": "勒热夫斯基的硬盘",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 2,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_electr_hdd/item_barter_electr_hdd_quest.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "在勒热夫斯基车内找到的硬盘",
+            "ShortName": "A.P. HDD",
+            "Description": "从 A.P. 待过的车上找到的硬盘，说不定里面还留着什么重要数据。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "TarkovStreets",
+                "locationId": "(36.7662,2.9275,346.7035)",
+                "probability": 1,
+                "template": {
+                    "Id": "勒热夫斯基的硬盘刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 36.7662,
+                        "y": 2.9275,
+                        "z": 346.7035
+                    },
+                    "Rotation": {
+                        "x": 1.5636,
+                        "y": 340.8426,
+                        "z": 168.4009
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "勒热夫斯基的硬盘刷新位置",
+                    "Items": [
+                        {
+                            "_id": "勒热夫斯基的硬盘刷新位置",
+                            "_tpl": "勒热夫斯基的硬盘"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "硬盘恢复内容": {
+        "_id": "硬盘恢复内容",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "硬盘恢复内容",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note/item_info_note_correspondence_himcombinat.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "硬盘恢复内容",
+            "ShortName": "A.P.打印稿",
+            "Description": "从 A.P. 车内找到的硬盘里恢复出的相关数据，打印版本。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "燃料催化剂测试报告": {
+        "_id": "燃料催化剂测试报告",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "燃料催化剂测试报告",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_terragrouplabs.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "燃料催化剂测试报告",
+            "ShortName": "催化剂",
+            "Description": "TerraGroup 关于在第 16 化工厂进行燃料催化剂相关测试的报告。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "factory4_day",
+                "copyLocation": [
+                    "factory4_night"
+                ],
+                "locationId": "(-22.0443,-1.7016,44.4098)",
+                "probability": 1,
+                "template": {
+                    "Id": "燃料催化剂测试报告刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -22.0443,
+                        "y": -1.7016,
+                        "z": 44.4098
+                    },
+                    "Rotation": {
+                        "x": 359.8488,
+                        "y": 211.1422,
+                        "z": 0.2038
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "燃料催化剂测试报告刷新位置",
+                    "Items": [
+                        {
+                            "_id": "燃料催化剂测试报告刷新位置",
+                            "_tpl": "燃料催化剂测试报告"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "烧焦的文件": {
+        "_id": "烧焦的文件",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "烧焦的文件",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note/item_info_note_delegation_authority.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "烧焦的文件",
+            "ShortName": "烧焦文件",
+            "Description": "一份烧焦的文件，字迹模糊难辨。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "factory4_day",
+                "copyLocation": [
+                    "factory4_night"
+                ],
+                "locationId": "(-23.3598,-2.5919,46.9008)",
+                "probability": 1,
+                "template": {
+                    "Id": "烧焦的文件刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -23.3598,
+                        "y": -2.5919,
+                        "z": 46.9008
+                    },
+                    "Rotation": {
+                        "x": 274.0425,
+                        "y": 213.3491,
+                        "z": 29.7308
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "烧焦的文件刷新位置",
+                    "Items": [
+                        {
+                            "_id": "烧焦的文件刷新位置",
+                            "_tpl": "烧焦的文件"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "AP会议录音带1": {
+        "_id": "AP会议录音带1",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "AP会议录音带1",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_tgmeeting.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "A.P. 会议录音带 - 1",
+            "ShortName": "会议1",
+            "Description": "一卷来自会议室的录音带，记录了一场 TerraGroup 会议的现场发言。\n\nA.P.: 啊，朋友们！外头还有谁？迪米特里·谢尔盖耶维奇，快请进，顺便把门关上吧，谢谢你。 所有部门的人都来了吗？我看应该是到齐了。那我们就开始吧。\n\nA.P.: 到现在为止，大家应该注意到了，和外界的通讯从上午开始就处于中断状态，许多部门也开始进行封锁。我本来想说这只是演习，但这一次的情况不一样，是来真的。\n\nA.P.: 就在今天，我们收到了来自纽约的指示，因此我们现在就在进行疏散。\n\nA.P.: 同事们，安静下来！我明白你们此时存在很多顾虑，但我们得团结一致，专注于主要情况。我在几个小时前启动了相关协议，专业团队已经在销毁敏感数据和封存现场设备了。\n\nA.P.: 在塔科夫进行的所有项目都将被关闭，包括关联的企业也是一样。从现在开始，和下游企业的接触只能通过……嗯……根纳季·维克托罗维奇，我看不到你，能举手示意一下吗？就是那位，你们有需要可以找他。\n\nA.P.: 我认为应该没有更多问题了，之前进行的演练并不是白费的……\n\n听众提问: 我手里有一半的样本都没跑完呢，你们会怎么处置它们？\n\nA.P.: 彼得·阿列克谢耶维奇，请先不要提问……\n\n听众提问: 不好意思，那些大型设备怎么办？\n\nA.P.: 离心机早在一个小时之前就拆开打包了！够了！别提问了！你们难道看不出现在每一分钟都很宝贵吗？\n\nA.P.: 你们最后会有提问的机会的，但是现在，让我们关注重点。各部门的重要人物会被护送到疗养院——应该有很多人在休假期间去过那里。\n\nA.P.: 那里现在是我们的临时疏散点。后勤保障、护送以及安保任务将会由联合安保公司人员，也就是 USEC PMC 负责。\n\nA.P.: 但要注意！在到达疗养院之后，与 USEC 的合作关系将会立刻终止！\n\nA.P.: 在此之后，会有新的承包商联系你们，接手之后的路程。管理层强烈建议各位不要与任何 USEC 人员有私下往来。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "laboratory",
+                "locationId": "(-213.8794,0.3574,-310.7493)",
+                "probability": 1,
+                "template": {
+                    "Id": "AP会议录音带1刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -213.8794,
+                        "y": 0.3574,
+                        "z": -310.7493
+                    },
+                    "Rotation": {
+                        "x": 359.9592,
+                        "y": 83.0954,
+                        "z": 0.5557
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "AP会议录音带1刷新位置",
+                    "Items": [
+                        {
+                            "_id": "AP会议录音带1刷新位置",
+                            "_tpl": "AP会议录音带1"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "AP会议录音带2": {
+        "_id": "AP会议录音带2",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "AP会议录音带2",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_recorder/item_info_recorder_tape_tgmeeting_02.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "A.P. 会议录音带 - 2",
+            "ShortName": "会议2",
+            "Description": "一卷来自会议室的录音带，记录了一场 TerraGroup 会议的现场发言。\n\nA.P.: 我明白大家都有顾虑！就连我自己也没有掌握所有情况，但我相当确定，新的合作伙伴会和 USEC 一样可靠。\n\nA.P.: 要知道，TerraGroup 一直把安全放在第一位，撤离这样的重大事项，集团只会委托真正的专业人士来完成。\n\nA.P.: 说到撤离行动……在 13 小时 47 分钟内，所有 TerraGroup 设施必须完成疏散。没错，时间很紧，这样的仓促行动还是第头一次，但是我们没有其他选择。\n\nA.P.: 我已经收到了密码，“Braun”和“Chernigov”都有……同时里斯本也发来了确认消息。所以等到倒计时结束的时候，设施必须要清空，一个人也不能留！\n\nA.P.: 不用担心，我会等到最后再撤离。当然，也不是只有我一个人，科尔涅夫，你在吗？\n\n科尔涅夫: 我在。\n\nA.P.: 很好，等到一切都办妥了，我们就动身前往疗养院。\n\nA.P.: 同事们，我明白你们的感受。一下子叫停所有项目确实很难接受。我们甚至没办法转移微生物部门，只能带上数据和参数结果……\n\n听众喊叫: 怎么能就这样把所有东西丢下不管不顾？我们可是花了一整年的时间才把整个实验室建起来啊！\n\nA.P.: 加琳娜·彼得罗芙娜，冷静些！等到了新地方，一切都会安排妥当的。\n\nA.P.: 好了，还有一件事，听好了，这很重要！呃，不好意思，我必须得接这个……\n\nA.P.: 你好？没错，“Schliss 14”……在办了……是的……等等，现在？明白了……给我两分钟，我找个地方。\n\nA.P.: 朋友们！这个电话非常紧急，我必须得接。非常抱歉，我一会就回来。\n\n",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "laboratory",
+                "locationId": "(-210.2531,1.4184,-306.9175)",
+                "probability": 1,
+                "template": {
+                    "Id": "AP会议录音带2刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -210.2531,
+                        "y": 1.4184,
+                        "z": -306.9175
+                    },
+                    "Rotation": {
+                        "x": 0.4155,
+                        "y": 218.1356,
+                        "z": 0.3464
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "AP会议录音带2刷新位置",
+                    "Items": [
+                        {
+                            "_id": "AP会议录音带2刷新位置",
+                            "_tpl": "AP会议录音带2"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "AP加密U盘": {
+        "_id": "AP加密U盘",
+        "_targetid": "590c621186f774138d11ea29",
+        "_name": "AP加密U盘",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_flash_card_ap_sticker.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "标有 A.P. 的 Sliderkey U 盘",
+            "ShortName": "USB A.P.",
+            "Description": "Sliderkey 安全U盘。TerraGroup 的员工们经常使用这种加密U盘，这个 USB 设备看样子属于某个名字缩写为 A.P. 的人。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Shoreline",
+                "locationId": "(-288.4821,2.5401,-89.2952)",
+                "probability": 1,
+                "template": {
+                    "Id": "AP加密U盘刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -288.4821,
+                        "y": 2.5401,
+                        "z": -89.2952
+                    },
+                    "Rotation": {
+                        "x": 270.5264,
+                        "y": 123.9799,
+                        "z": 14.4481
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "AP加密U盘刷新位置",
+                    "Items": [
+                        {
+                            "_id": "AP加密U盘刷新位置",
+                            "_tpl": "AP加密U盘"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "AP解密U盘": {
+        "_id": "AP解密U盘",
+        "_targetid": "590c621186f774138d11ea29",
+        "_name": "AP解密U盘",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_flash_card_ap_sticker.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "标有 A.P. 的解密 U 盘",
+            "ShortName": "USB A.P.解",
+            "Description": "这个 U 盘曾属于某个姓名缩写为 A.P. 的人，现已完成破解，包含了各种技术文件。“无名者”这个词在代码中高频词出现，但代码本身并没有功能，也不会运行其他什么东西。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "总部命令": {
+        "_id": "总部命令",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "总部命令",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note/item_info_note_order_stopactivities.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "TerraGroup 全球总部的直接命令",
+            "ShortName": "总部命令",
+            "Description": "来自 TerraGroup 总部办公室的命令文件，到处都是涂抹痕迹。\n\n<width=75%><align=\"right\"><mark=#5B5B59><size=30>00000 0000000000</mark></align>\n<align=\"right\"><mark=#5B5B59>0000000 00000 000000</size></mark></align>\n\n<mark=#5B5B59><size=24>00000000: </mark><color=#a52a2aff><b>红色</b></size></color>\n\n<size=24><b>TG 全球总 </b><mark=#5B5B59>0000</mark><b> 第 </b><mark=#5B5B59>0</mark><b> 501 号指令，</b>\n<b>201</b><mark=#5B5B59>0</mark><b> 年 4 月 19 日 </b><mark=#5B5B59>0</mark><b> 效</b></size>\n\n塔科夫 <mark=#5B5B59>00</mark> 内的实验室综合体与设施相关的所有 TerraGroup <mark=#5B5B59>0000000000</mark> 必须做好疏散准备。所有无法立刻转 <mark=#5B5B59>0</mark> 或冷冻保存的 <mark=#5B5B59>000</mark> 项目与 <mark=#5B5B59>0</mark> 究 <mark=#5B5B59>0000</mark> 应当就地销 <mark=#5B5B59>00</mark>。<mark=#5B5B59>0</mark> 散期间，各项 <mark=#5B5B59>0000</mark> 的转 <mark=#5B5B59>00</mark> 顺序必须依照项 <mark=#5B5B59>000</mark> 优先级 <mark=#5B5B59>0</mark> 统中的等级进行安排。\n\n员工必须提前进行疏散准备，<mark=#5B5B59>00</mark> 在 TerraGroup 设 <mark=#5B5B59>00</mark> 内以员工守则更新为名义组织演练。禁 <mark=#5B5B59>00</mark> 任何讨 <mark=#5B5B59>00</mark> 或 <mark=#5B5B59>00</mark> 问，不要回应任何质疑。\n\n启动疏散程序对应的确认代码将由总部下达。在收到来自纽 <mark=#5B5B59>00</mark> 与 <mark=#5B5B59>00</mark> 斯本办事处的正确密码前，应严格封 <mark=#5B5B59>0000</mark> 息，禁止提前宣布疏散行 <mark=#5B5B59>00</mark>\n\n疏散行动开始后，集团与联 <mark=#5B5B59>00</mark> 安保公司的合作将正式终止。在此时间点后，请勿与 <mark=#5B5B59>00</mark> 承包商相关的任何人员代表进行任何形式的接触。负责塔 <mark=#5B5B59>0000</mark> 区 T<mark=#5B5B59>0000000</mark>up 设施安保工作的 <mark=#5B5B59>00000</mark> 部队成员，其权限将自动失效。\n\n进一 <mark=#5B5B59>000</mark> 示将在疏散期间下 <mark=#5B5B59>00</mark>，<mark=#5B5B59>00000000</mark> 球总部目前尚未掌握相关指 <mark=#5B5B59>0000</mark>\n\n\n<align=\"right\">签字 / 盖章  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲</align></width>",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "TarkovStreets",
+                "locationId": "(113.6758,4.8084,-18.4867)",
+                "probability": 1,
+                "template": {
+                    "Id": "总部命令刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 113.6758,
+                        "y": 4.8084,
+                        "z": -18.4867
+                    },
+                    "Rotation": {
+                        "x": 89.9441,
+                        "y": 105.0988,
+                        "z": 0
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "总部命令刷新位置",
+                    "Items": [
+                        {
+                            "_id": "总部命令刷新位置",
+                            "_tpl": "总部命令"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "实验型信号干扰器": {
+        "_id": "实验型信号干扰器",
+        "_targetid": "590c621186f774138d11ea29",
+        "_name": "实验型信号干扰器",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 2,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/quest/item_quest_electr_signal_jammer/item_quest_electr_signal_jammer.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "实验型信号干扰器",
+            "ShortName": "干扰器",
+            "Description": "TerraGroup 研发的一款实验型设备，能够完全压制 100 米范围内的数字信号。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "laboratory",
+                "locationId": "(-232.2719,5.0231,-340.8527)",
+                "probability": 1,
+                "template": {
+                    "Id": "实验型信号干扰器刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -232.2719,
+                        "y": 5.0231,
+                        "z": -340.8527
+                    },
+                    "Rotation": {
+                        "x": 0.0321,
+                        "y": 166.348,
+                        "z": -0.0006
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "实验型信号干扰器刷新位置",
+                    "Items": [
+                        {
+                            "_id": "实验型信号干扰器刷新位置",
+                            "_tpl": "实验型信号干扰器"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "克鲁格洛夫的钥匙卡": {
+        "_id": "克鲁格洛夫的钥匙卡",
+        "_targetid": "5c94bbff86f7747ee735c08f",
+        "_name": "克鲁格洛夫的钥匙卡",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "IsSpecialSlotOnly": true,
+            "IsUnbuyable": true,
+            "IsUndiscardable": true,
+            "IsUngivable": false,
+            "IsUnremovable": true,
+            "IsUnsaleable": true,
+            "InsuranceDisabled": true,
+            "Unlootable": true,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/content/items/spec/item_keycard_lab/item_keycard_quest_rfid_kruglov.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "克鲁格洛夫的钥匙卡",
+            "ShortName": "克鲁格洛夫",
+            "Description": "经过严密设计的定制钥匙卡，能够开启为受集团信任的高层人员专门预留的 TerraGroup 撤离点。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "感应钥匙卡说明书": {
+        "_id": "感应钥匙卡说明书",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "感应钥匙卡说明书",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "default",
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note/item_info_note_rfid_instruction.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "感应钥匙卡说明书",
+            "ShortName": "钥匙卡说明",
+            "Description": "克鲁格洛夫的感应钥匙卡配套的说明手册，由 TerraGroup 签发。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "解锁的加固手提箱": {
+        "_id": "解锁的加固手提箱",
+        "_targetid": "63a8970d7108f713591149f5",
+        "_name": "解锁的加固手提箱",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 4,
+            "Width": 4,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_quest_briefcase/item_info_quest_briefcase.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "giftbox",
+            "Name": "加固手提箱",
+            "ShortName": "加固手提箱",
+            "Description": "一个神秘的公文包，显然里面装着逃出塔科夫的某种“门票”。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "isStaticBox": true,
+            "StaticBoxData": {
+                "forcefindinraid": true,
+                "giftdata": [
+                    {
+                        "$type": "Item",
+                        "name": "克鲁格洛夫钥匙卡",
+                        "itemid": "克鲁格洛夫的钥匙卡",
+                        "stackcount": 1
+                    },
+                    {
+                        "$type": "Item",
+                        "name": "克鲁格洛夫钥匙卡说明书",
+                        "itemid": "感应钥匙卡说明书",
+                        "stackcount": 1
+                    }
+                ]
+            }
+        }
+    },
+    "Prapor给港口检查点的信": {
+        "_id": "Prapor给港口检查点的信",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "Prapor给港口检查点的信",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "CanSellOnRagfair": false,
+            "IsSpecialSlotOnly": true,
+            "IsUnbuyable": true,
+            "IsUndiscardable": true,
+            "IsUngivable": false,
+            "IsUnremovable": true,
+            "IsUnsaleable": true,
+            "InsuranceDisabled": true,
+            "Unlootable": true,
+            "StackMaxSize": 1,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_survived_letter_prapor/item_info_survived_letter_prapor.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "Prapor 给港口检查点的信",
+            "ShortName": "信",
+            "Description": "Prapor 给港口守军写的条子，还塞了不少钱在里面。呵，和这家伙刚刚收到的巨款相比，信封里的这点钱不过是小儿科。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "TerraGroup实验室总钥匙卡": {
+        "_id": "TerraGroup实验室总钥匙卡",
+        "_targetid": "5c94bbff86f7747ee735c08f",
+        "_name": "TerraGroup实验室总钥匙卡",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/content/items/spec/item_keycard_lab/item_keycard_quest_master_lab.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "TerraGroup 实验室总钥匙卡",
+            "ShortName": "主卡",
+            "Description": "一张最高权限的主钥匙卡，理论上能够开启系统内的所有门禁。仅限 TerraGroup 实验室内部使用，已经失效了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "laboratory",
+                "locationId": "(-269.1236,5.398,-372.694)",
+                "probability": 1,
+                "template": {
+                    "Id": "TerraGroup实验室总钥匙卡刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -269.1236,
+                        "y": 5.398,
+                        "z": -372.694
+                    },
+                    "Rotation": {
+                        "x": 0.1894,
+                        "y": 271.4504,
+                        "z": 0.0155
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "TerraGroup实验室总钥匙卡刷新位置",
+                    "Items": [
+                        {
+                            "_id": "TerraGroup实验室总钥匙卡刷新位置",
+                            "_tpl": "TerraGroup实验室总钥匙卡"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "RFID钥匙卡加密装置": {
+        "_id": "RFID钥匙卡加密装置",
+        "_targetid": "590c621186f774138d11ea29",
+        "_name": "RFID钥匙卡加密装置",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/quest/item_quest_electr_card_programmer/item_quest_electr_card_programmer.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "RFID 钥匙卡加密装置",
+            "ShortName": "RFID破解",
+            "Description": "能够为射频钥匙卡写入加密数据的设备，内置有微控制器。在 TerraGroup 设施内部有着相当广泛的用途。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "TarkovStreets",
+                "locationId": "(226.6438,-4.0263,57.1377)",
+                "probability": 1,
+                "template": {
+                    "Id": "RFID钥匙卡加密装置刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 226.6438,
+                        "y": -4.0263,
+                        "z": 57.1377
+                    },
+                    "Rotation": {
+                        "x": 89.6655,
+                        "y": 312.701,
+                        "z": 92.3056
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "RFID钥匙卡加密装置刷新位置",
+                    "Items": [
+                        {
+                            "_id": "RFID钥匙卡加密装置刷新位置",
+                            "_tpl": "RFID钥匙卡加密装置"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "灯塔地形情报地图": {
+        "_id": "灯塔地形情报地图",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "灯塔地形情报地图",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 2,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_info_maps/item_barter_info_maps.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "灯塔地形情报地图",
+            "ShortName": "灯塔",
+            "Description": "有助于使用者更好地了解周围的环境。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Lighthouse",
+                "locationId": "(-82.6406,25.1091,-71.0819)",
+                "probability": 1,
+                "template": {
+                    "Id": "灯塔地形情报地图刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -82.6406,
+                        "y": 25.1091,
+                        "z": -71.0819
+                    },
+                    "Rotation": {
+                        "x": 0.0353,
+                        "y": 8.6864,
+                        "z": 0.028
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "灯塔地形情报地图刷新位置",
+                    "Items": [
+                        {
+                            "_id": "灯塔地形情报地图刷新位置",
+                            "_tpl": "灯塔地形情报地图"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "自然保护区地形情报地图": {
+        "_id": "自然保护区地形情报地图",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "自然保护区地形情报地图",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 2,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_info_maps/item_barter_info_maps.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "自然保护区地形情报地图",
+            "ShortName": "森林",
+            "Description": "有助于使用者更好地了解周围的环境。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Woods",
+                "locationId": "(233.7827,-1.7261,-70.2301)",
+                "probability": 1,
+                "template": {
+                    "Id": "自然保护区地形情报地图刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 233.7827,
+                        "y": -1.7261,
+                        "z": -70.2301
+                    },
+                    "Rotation": {
+                        "x": 0.5767,
+                        "y": 102.6584,
+                        "z": 1.0268
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "自然保护区地形情报地图刷新位置",
+                    "Items": [
+                        {
+                            "_id": "自然保护区地形情报地图刷新位置",
+                            "_tpl": "自然保护区地形情报地图"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "海关地形情报地图": {
+        "_id": "海关地形情报地图",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "海关地形情报地图",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 2,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_info_maps/item_barter_info_maps.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "海关地形情报地图",
+            "ShortName": "海关",
+            "Description": "有助于使用者更好地了解周围的环境。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "bigmap",
+                "locationId": "(90.1531,7.5485,-59.3571)",
+                "probability": 1,
+                "template": {
+                    "Id": "海关地形情报地图刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 90.1531,
+                        "y": 7.5485,
+                        "z": -59.3571
+                    },
+                    "Rotation": {
+                        "x": 0.0038,
+                        "y": 245.91,
+                        "z": -0.0034
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "海关地形情报地图刷新位置",
+                    "Items": [
+                        {
+                            "_id": "海关地形情报地图刷新位置",
+                            "_tpl": "海关地形情报地图"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "城市地形情报地图": {
+        "_id": "城市地形情报地图",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "城市地形情报地图",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 2,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_info_maps/item_barter_info_maps.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "城市地形情报地图",
+            "ShortName": "城市",
+            "Description": "有助于使用者更好地了解周围的环境。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "Sandbox",
+                "copyLocation": [
+                    "Sandbox_high"
+                ],
+                "locationId": "(-9.1808,30.2243,40.4018)",
+                "probability": 1,
+                "template": {
+                    "Id": "城市地形情报地图刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -9.1808,
+                        "y": 30.2243,
+                        "z": 40.4018
+                    },
+                    "Rotation": {
+                        "x": 0.0018,
+                        "y": 99.5536,
+                        "z": 0.0171
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "城市地形情报地图刷新位置",
+                    "Items": [
+                        {
+                            "_id": "城市地形情报地图刷新位置",
+                            "_tpl": "城市地形情报地图"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "工厂厂区地形情报地图": {
+        "_id": "工厂厂区地形情报地图",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "工厂厂区地形情报地图",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "blue",
+            "Height": 1,
+            "Width": 2,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_info_maps/item_barter_info_maps.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "工厂厂区地形情报地图",
+            "ShortName": "工厂",
+            "Description": "有助于使用者更好地了解周围的环境。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "factory4_day",
+                "copyLocation": [
+                    "factory4_night"
+                ],
+                "locationId": "(-21.417,-1.2893,44.4467)",
+                "probability": 1,
+                "template": {
+                    "Id": "工厂厂区地形情报地图刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -21.417,
+                        "y": -1.2893,
+                        "z": 44.4467
+                    },
+                    "Rotation": {
+                        "x": -0.0021,
+                        "y": 179.7809,
+                        "z": 358.59
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "工厂厂区地形情报地图刷新位置",
+                    "Items": [
+                        {
+                            "_id": "工厂厂区地形情报地图刷新位置",
+                            "_tpl": "工厂厂区地形情报地图"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "地形情报军用闪存": {
+        "_id": "地形情报军用闪存",
+        "_targetid": "590c621186f774138d11ea29",
+        "_name": "地形情报军用闪存",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/barter/item_barter_info_militaryflash/item_barter_info_militaryflash.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "地形情报军用闪存",
+            "ShortName": "地形闪存",
+            "Description": "装有全套地形侦察材料的军用闪存盘，谁要是能找到这种东西，那可真是撞了大运了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "护身符1": {
+        "_id": "护身符1",
+        "_targetid": "57347c5b245977448d35f6e1",
+        "_name": "护身符1",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/spec/item_spec_lightkeeper_amulet/item_spec_lightkeeper_amulet.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "宿舍 314 房间的神圣护身符",
+            "ShortName": "护身符1",
+            "Description": "邪教徒们在自己的仪式上所用的一种护身符，看样子是仪式结束后忘了还给 Lightkeeper 了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "bigmap",
+                "locationId": "(181.966,6.1379,182.3813)",
+                "probability": 1,
+                "template": {
+                    "Id": "护身符1刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 181.966,
+                        "y": 6.1379,
+                        "z": 182.3813
+                    },
+                    "Rotation": {
+                        "x": 358.8262,
+                        "y": 195.7346,
+                        "z": 17.388
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "护身符1刷新位置",
+                    "Items": [
+                        {
+                            "_id": "护身符1刷新位置",
+                            "_tpl": "护身符1"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "护身符2": {
+        "_id": "护身符2",
+        "_targetid": "57347c5b245977448d35f6e1",
+        "_name": "护身符2",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/spec/item_spec_lightkeeper_amulet/item_spec_lightkeeper_amulet.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "神秘房间的神圣护身符",
+            "ShortName": "护身符2",
+            "Description": "邪教徒们在自己的仪式上所用的一种护身符，看样子是仪式结束后忘了还给 Lightkeeper 了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "TarkovStreets",
+                "locationId": "(188.5821,-0.1584,226.8167)",
+                "probability": 1,
+                "template": {
+                    "Id": "护身符2刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 188.5821,
+                        "y": -0.1584,
+                        "z": 226.8167
+                    },
+                    "Rotation": {
+                        "x": 358.0598,
+                        "y": 131.7741,
+                        "z": 0.7298
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "护身符2刷新位置",
+                    "Items": [
+                        {
+                            "_id": "护身符2刷新位置",
+                            "_tpl": "护身符2"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "护身符3": {
+        "_id": "护身符3",
+        "_targetid": "57347c5b245977448d35f6e1",
+        "_name": "护身符3",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/spec/item_spec_lightkeeper_amulet/item_spec_lightkeeper_amulet.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "废弃工厂的神圣护身符",
+            "ShortName": "护身符3",
+            "Description": "邪教徒们在自己的仪式上所用的一种护身符，看样子是仪式结束后忘了还给 Lightkeeper 了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "TarkovStreets",
+                "locationId": "(-130.835,8.9136,270.5395)",
+                "probability": 1,
+                "template": {
+                    "Id": "护身符3刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -130.835,
+                        "y": 8.9136,
+                        "z": 270.5395
+                    },
+                    "Rotation": {
+                        "x": 322.4467,
+                        "y": 175.1583,
+                        "z": 350.1248
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "护身符3刷新位置",
+                    "Items": [
+                        {
+                            "_id": "护身符3刷新位置",
+                            "_tpl": "护身符3"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "护身符4": {
+        "_id": "护身符4",
+        "_targetid": "57347c5b245977448d35f6e1",
+        "_name": "护身符4",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/spec/item_spec_lightkeeper_amulet/item_spec_lightkeeper_amulet.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "RB-VO 房间的神圣护身符",
+            "ShortName": "护身符4",
+            "Description": "邪教徒们在自己的仪式上所用的一种护身符，看样子是仪式结束后忘了还给 Lightkeeper 了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "RezervBase",
+                "locationId": "(191.8629,-6.0272,-225)",
+                "probability": 1,
+                "template": {
+                    "Id": "护身符4刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": 191.8629,
+                        "y": -6.0272,
+                        "z": -225
+                    },
+                    "Rotation": {
+                        "x": 0.0293,
+                        "y": 34.2903,
+                        "z": 0.0815
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "护身符4刷新位置",
+                    "Items": [
+                        {
+                            "_id": "护身符4刷新位置",
+                            "_tpl": "护身符4"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "护身符5": {
+        "_id": "护身符5",
+        "_targetid": "57347c5b245977448d35f6e1",
+        "_name": "护身符5",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/spec/item_spec_lightkeeper_amulet/item_spec_lightkeeper_amulet.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "RB-PKPM 房间的神圣护身符",
+            "ShortName": "护身符5",
+            "Description": "邪教徒们在自己的仪式上所用的一种护身符，看样子是仪式结束后忘了还给 Lightkeeper 了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "RezervBase",
+                "locationId": "(-123.3459,-13.7006,29.9674)",
+                "probability": 1,
+                "template": {
+                    "Id": "护身符5刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -123.3459,
+                        "y": -13.7006,
+                        "z": 29.9674
+                    },
+                    "Rotation": {
+                        "x": 0.0309,
+                        "y": 243.4822,
+                        "z": 0.0989
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "护身符5刷新位置",
+                    "Items": [
+                        {
+                            "_id": "护身符5刷新位置",
+                            "_tpl": "护身符5"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "护身符6": {
+        "_id": "护身符6",
+        "_targetid": "57347c5b245977448d35f6e1",
+        "_name": "护身符6",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/spec/item_spec_lightkeeper_amulet/item_spec_lightkeeper_amulet.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "RB-BK 房间的神圣护身符",
+            "ShortName": "护身符6",
+            "Description": "邪教徒们在自己的仪式上所用的一种护身符，看样子是仪式结束后忘了还给 Lightkeeper 了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "RezervBase",
+                "locationId": "(-152.6321,-8.3744,73.2666)",
+                "probability": 1,
+                "template": {
+                    "Id": "护身符6刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -152.6321,
+                        "y": -8.3744,
+                        "z": 73.2666
+                    },
+                    "Rotation": {
+                        "x": 357.1462,
+                        "y": 111.2559,
+                        "z": 12.3253
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "护身符6刷新位置",
+                    "Items": [
+                        {
+                            "_id": "护身符6刷新位置",
+                            "_tpl": "护身符6"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "空白RFID钥匙卡": {
+        "_id": "空白RFID钥匙卡",
+        "_targetid": "5c94bbff86f7747ee735c08f",
+        "_name": "空白RFID钥匙卡",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "violet",
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/content/items/spec/item_keycard_lab/item_keycard_rfid_blank.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "空白 RFID 钥匙卡",
+            "ShortName": "空白",
+            "Description": "空白的模板钥匙卡，还没有写入任何东西，至少现在没有。",
+            "DefaultPrice": 380000,
+            "RagfairPrice": 380000,
+            "RagfairType": "5c518ed586f774119a772aee",
+            "CanFindInRaid": true,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ]
+        }
+    },
+    "装有危险货物的箱子": {
+        "_id": "装有危险货物的箱子",
+        "_targetid": "59fafb5d86f774067a6f2084",
+        "_name": "装有危险货物的箱子",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 3,
+            "Width": 3,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_quest_biohazard_case/item_info_quest_biohazard_case.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "装有危险货物的箱子",
+            "ShortName": "化武箱子",
+            "Description": "从一个普普通通的房间里找到的箱子，最好还是不要打开，再保险点，挖个深坑埋起来。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "RezervBase",
+                "locationId": "(-105.9443,-14.0094,24.1684)",
+                "probability": 1,
+                "template": {
+                    "Id": "装有危险货物的箱子刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -105.9443,
+                        "y": -14.0094,
+                        "z": 24.1684
+                    },
+                    "Rotation": {
+                        "x": 89.9604,
+                        "y": 127.3452,
+                        "z": 0
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "装有危险货物的箱子刷新位置",
+                    "Items": [
+                        {
+                            "_id": "装有危险货物的箱子刷新位置",
+                            "_tpl": "装有危险货物的箱子"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "激活的克鲁格洛夫的钥匙卡": {
+        "_id": "激活的克鲁格洛夫的钥匙卡",
+        "_targetid": "5c94bbff86f7747ee735c08f",
+        "_name": "激活的克鲁格洛夫的钥匙卡",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "IsSpecialSlotOnly": true,
+            "IsUnbuyable": true,
+            "IsUndiscardable": true,
+            "IsUngivable": false,
+            "IsUnremovable": true,
+            "IsUnsaleable": true,
+            "InsuranceDisabled": true,
+            "Unlootable": true,
+            "MaximumNumberOfUsage": 0,
+            "Prefab": {
+                "path": "assets/content/items/spec/item_keycard_lab/item_keycard_quest_rfid_kruglov.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "已激活的克鲁格洛夫钥匙卡",
+            "ShortName": "已激活",
+            "Description": "经过严密设计的定制钥匙卡，卡片现在已经激活，你可以尝试用它溜进港口了。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "以Prapor提供的哈希代码重新编码的钥匙卡": {
+        "_id": "以Prapor提供的哈希代码重新编码的钥匙卡",
+        "_targetid": "5c94bbff86f7747ee735c08f",
+        "_name": "以Prapor提供的哈希代码重新编码的钥匙卡",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "CanSellOnRagfair": false,
+            "IsSpecialSlotOnly": true,
+            "IsUnbuyable": true,
+            "IsUndiscardable": true,
+            "IsUngivable": false,
+            "IsUnremovable": true,
+            "IsUnsaleable": true,
+            "InsuranceDisabled": true,
+            "Unlootable": true,
+            "StackMaxSize": 1,
+            "Prefab": {
+                "path": "assets/content/items/spec/item_keycard_lab/item_keycard_rfid_blank.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "以 Prapor 提供的哈希代码重新编码的钥匙卡",
+            "ShortName": "P重编",
+            "Description": "使用 Prapor 提供的哈希代码重新编码后的射频钥匙卡。理论上应该能开启港口终点站的通路，至少理论如此。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "装有Prapor哈希代码的U盘": {
+        "_id": "装有Prapor哈希代码的U盘",
+        "_targetid": "590c621186f774138d11ea29",
+        "_name": "装有Prapor哈希代码的U盘",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_flash_card_hash_prapor.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "装有 Prapor 哈希代码的 U 盘",
+            "ShortName": "Prapor",
+            "Description": "装有更新版本钥匙卡哈希代码的 U 盘，来自 Prapor，为了归还小小人情。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "未知名称钥匙卡": {
+        "_id": "未知名称钥匙卡",
+        "_targetid": "5c94bbff86f7747ee735c08f",
+        "_name": "未知名称钥匙卡",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "CanSellOnRagfair": false,
+            "IsSpecialSlotOnly": true,
+            "IsUnbuyable": true,
+            "IsUndiscardable": true,
+            "IsUngivable": false,
+            "IsUnremovable": true,
+            "IsUnsaleable": true,
+            "InsuranceDisabled": true,
+            "Unlootable": true,
+            "StackMaxSize": 1,
+            "Prefab": {
+                "path": "assets/content/items/spec/item_keycard_lab/item_keycard_quest_rfid_unknown.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "未知名称钥匙卡",
+            "ShortName": "RFID L.",
+            "Description": "经过严密设计的定制钥匙卡，像是克鲁格洛夫钥匙卡的复制版本，但原主人的姓名被有意抹去了。能够开启为受集团信任的高层人员专门预留的 TerraGroup 撤离点。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "Lab报告": {
+        "_id": "Lab报告",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "Lab报告",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_terragrouplabs.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "TerraGroup 实验室罪证文件夹 (报告)",
+            "ShortName": "Lab报告",
+            "Description": "装满证据和其他文件的文件夹，其中包含的机密信息主要指向 TerraGroup 实验室，以集团内部项目的报告为主。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "laboratory",
+                "locationId": "(-252.1386,4.973,-321.5359)",
+                "probability": 1,
+                "template": {
+                    "Id": "Lab报告刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -252.1386,
+                        "y": 4.973,
+                        "z": -321.5359
+                    },
+                    "Rotation": {
+                        "x": 0.0018,
+                        "y": 1.0713,
+                        "z": 0.0656
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "Lab报告刷新位置",
+                    "Items": [
+                        {
+                            "_id": "Lab报告刷新位置",
+                            "_tpl": "Lab报告"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "TG人事": {
+        "_id": "TG人事",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "TG人事",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 2,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_terragrouplabs.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "TerraGroup 罪证文件夹 (人事)",
+            "ShortName": "TG人事",
+            "Description": "装满证据和其他文件的文件夹，其中包含的机密信息足以动摇 TerraGroup 的地位，重点关注集团的人事动向。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "laboratory",
+                "locationId": "(-242.2562,5.0254,-379.6998)",
+                "probability": 1,
+                "template": {
+                    "Id": "TG人事刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -242.2562,
+                        "y": 5.0254,
+                        "z": -379.6998
+                    },
+                    "Rotation": {
+                        "x": 0.0051,
+                        "y": 88.7389,
+                        "z": 0.0301
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "TG人事刷新位置",
+                    "Items": [
+                        {
+                            "_id": "TG人事刷新位置",
+                            "_tpl": "TG人事"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "Lab研发": {
+        "_id": "Lab研发",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "Lab研发",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 2,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_terragrouplabs.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "TerraGroup 实验室罪证文件夹 (研发项目)",
+            "ShortName": "Lab研发",
+            "Description": "装满证据和其他文件的文件夹，其中包含的机密信息主要指向 TerraGroup 实验室，以及在秘密设施中进行的各种违法研究。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "laboratory",
+                "locationId": "(-207.5504,1.7687,-304.6937)",
+                "probability": 1,
+                "template": {
+                    "Id": "Lab研发刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -207.5504,
+                        "y": 1.7687,
+                        "z": -304.6937
+                    },
+                    "Rotation": {
+                        "x": 0.0017,
+                        "y": 357.3466,
+                        "z": 0.0723
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "Lab研发刷新位置",
+                    "Items": [
+                        {
+                            "_id": "Lab研发刷新位置",
+                            "_tpl": "Lab研发"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "TG财务": {
+        "_id": "TG财务",
+        "_targetid": "5c12613b86f7743bbe2c3f76",
+        "_name": "TG财务",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 2,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_note_folder/item_info_note_folder_closed_terragrouplabs.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "quest",
+            "Name": "TerraGroup 罪证文件夹 (财务)",
+            "ShortName": "TG财务",
+            "Description": "装满证据和其他文件的文件夹，其中包含的机密信息足以动摇 TerraGroup 的地位，重点关注该组织的财务活动。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64,
+            "QuestItemData": {
+                "location": "laboratory",
+                "locationId": "(-161.3904,4.8132,-349.1986)",
+                "probability": 1,
+                "template": {
+                    "Id": "TG财务刷新点",
+                    "IsContainer": false,
+                    "useGravity": false,
+                    "randomRotation": false,
+                    "Position": {
+                        "x": -161.3904,
+                        "y": 4.8132,
+                        "z": -349.1986
+                    },
+                    "Rotation": {
+                        "x": 0.0006,
+                        "y": 88.3548,
+                        "z": 359.9932
+                    },
+                    "IsGroupPosition": false,
+                    "GroupPositions": [],
+                    "IsAlwaysSpawn": false,
+                    "Root": "TG财务刷新位置",
+                    "Items": [
+                        {
+                            "_id": "TG财务刷新位置",
+                            "_tpl": "TG财务"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "TG黑料": {
+        "_id": "TG黑料",
+        "_targetid": "590c392f86f77444754deb29",
+        "_name": "TG黑料",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 2,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/barter/ssd/item_barter_electr_ssd.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "装有 TerraGroup 证据的固态硬盘",
+            "ShortName": "TG黑料",
+            "Description": "装满集团黑料的固态硬盘。TerraGroup 肯定愿意花上一大笔钱只为销毁里面的东西，但也许其他人对此同样感兴趣。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "以Kerman提供的哈希代码重新编码的钥匙卡": {
+        "_id": "以Kerman提供的哈希代码重新编码的钥匙卡",
+        "_targetid": "5c94bbff86f7747ee735c08f",
+        "_name": "以Kerman提供的哈希代码重新编码的钥匙卡",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "CanSellOnRagfair": false,
+            "IsSpecialSlotOnly": true,
+            "IsUnbuyable": true,
+            "IsUndiscardable": true,
+            "IsUngivable": false,
+            "IsUnremovable": true,
+            "IsUnsaleable": true,
+            "InsuranceDisabled": true,
+            "Unlootable": true,
+            "StackMaxSize": 1,
+            "Prefab": {
+                "path": "assets/content/items/spec/item_keycard_lab/item_keycard_rfid_blank.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "以 Kerman 提供的哈希代码重新编码的钥匙卡",
+            "ShortName": "K重编",
+            "Description": "使用 Kerman 先生提供的哈希代码重新编码后的射频钥匙卡。理论上应该能开启港口终点站的通路，至少理论如此。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "装有Kerman哈希代码的U盘": {
+        "_id": "装有Kerman哈希代码的U盘",
+        "_targetid": "590c621186f774138d11ea29",
+        "_name": "装有Kerman哈希代码的U盘",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 1,
+            "Width": 1,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/infosubject/item_info_flash_card_hash_kerman.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "装有 Kerman 哈希代码的 U 盘",
+            "ShortName": "Mr.Kerman",
+            "Description": "装有更新版本钥匙卡哈希代码的 U 盘，由 Kerman 信得过的一位关系人士转交而来。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    },
+    "彭罗斯三角臂带": {
+        "_id": "彭罗斯三角臂带",
+        "_targetid": "60b0f988c4449e4cb624c1da",
+        "_name": "彭罗斯三角臂带",
+        "_props": {
+            "BackgroundColor": "violet",
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/armband_Ana.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "base",
+            "Name": "\"Anastasia\"臂带",
+            "ShortName": "Anastasia",
+            "Description": "一位友人赠予的臂带，上面印着一个现实中无法存在的几何体。\n以此纪念，她曾来过。",
+            "DefaultPrice": 19801203,
+            "RagfairType": "5b5f704686f77447ec5d76d7",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "CustomLootTarget": "59faff1d86f7746c51718c9c",
+            "isMoney": false,
+            "BlackListType": 64
+        }
+    },
+    "TG证据箱": {
+        "_id": "TG证据箱",
+        "_targetid": "59fafb5d86f774067a6f2084",
+        "_name": "TG证据箱",
+        "_props": {
+            "Weight": 0,
+            "BackgroundColor": "yellow",
+            "Height": 2,
+            "Width": 2,
+            "QuestItem": true,
+            "StackMaxSize": 1,
+            "CanSellOnRagfair": false,
+            "Prefab": {
+                "path": "assets/content/items/containers/item_container_case_kompromat/item_container_case_kompromat.bundle",
+                "rcid": ""
+            }
+        },
+        "_customprops": {
+            "$type": "lootable",
+            "Name": "装有 TerraGroup 罪证的 Alpha-1 安全箱",
+            "ShortName": "证据",
+            "Description": "装有与 TerraGroup 罪证相关的所有文件的小型安全箱。",
+            "DefaultPrice": 20000,
+            "RagfairPrice": 20000,
+            "RagfairType": "VulcanQuestItem",
+            "CanFindInRaid": false,
+            "CustomLoot": false,
+            "isMoney": false,
+            "addToKappa": false,
+            "FixType": [
+                "None"
+            ],
+            "BlackListType": 64
+        }
+    }
+}

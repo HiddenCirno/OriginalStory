@@ -1,0 +1,314 @@
+[
+  {
+    "zoneId": "story_chapter1_transit_visit_intercharge_to_streets",
+    "zoneName": "story_chapter1_transit_visit_intercharge_to_streets",
+    "zoneLocation": "Interchange",
+    "zoneType": "visit",
+    "flareType": "",
+    "position": {
+      "x": 263.2211,
+      "y": 25.39149,
+      "z": -442.1685,
+      "w": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "scale": {
+      "x": 50,
+      "y": 9,
+      "z": 30,
+      "w": 0
+    },
+    "groupPosition": []
+  },
+  {
+    "zoneId": "story_chapter1_transit_visit_intercharge_to_custom",
+    "zoneName": "story_chapter1_transit_visit_intercharge_to_custom",
+    "zoneLocation": "Interchange",
+    "zoneType": "visit",
+    "flareType": "",
+    "position": {
+      "x": 274.5572,
+      "y": 24.32544,
+      "z": 393.8515,
+      "w": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "scale": {
+      "x": 42,
+      "y": 6,
+      "z": 15,
+      "w": 0
+    },
+    "groupPosition": []
+  },
+  {
+    "zoneId": "story_chapter1_transit_visit_custom_to_factory",
+    "zoneName": "story_chapter1_transit_visit_custom_to_factory",
+    "zoneLocation": "bigmap",
+    "zoneType": "visit",
+    "flareType": "",
+    "position": {
+      "x": 353.7913,
+      "y": 2.154202,
+      "z": -189.0912,
+      "w": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "scale": {
+      "x": 17,
+      "y": 3,
+      "z": 9,
+      "w": 0
+    },
+    "groupPosition": []
+  },
+  {
+    "zoneId": "story_chapter1_transit_visit_factory_to_woods",
+    "zoneName": "story_chapter1_transit_visit_factory_to_woods",
+    "zoneLocation": "FactoryCommon",
+    "zoneType": "visit",
+    "flareType": "",
+    "position": {
+      "x": 23.70279,
+      "y": 2.172279,
+      "z": 61.05845,
+      "w": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "scale": {
+      "x": 11,
+      "y": 4,
+      "z": 9,
+      "w": 0
+    },
+    "groupPosition": []
+  },
+  {
+    "zoneId": "story_chapter1_shoreline_terminal",
+    "zoneName": "story_chapter1_shoreline_terminal",
+    "zoneLocation": "Shoreline",
+    "zoneType": "visit",
+    "flareType": "",
+    "position": {
+      "x": -973.7621,
+      "y": -56.39103,
+      "z": 375.895,
+      "w": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "scale": {
+      "x": 55,
+      "y": 8,
+      "z": 30,
+      "w": 0
+    },
+    "groupPosition": []
+  },
+  {
+    "zoneId": "story_chapter1_transit_visit_reserve_to_lighthouse",
+    "zoneName": "story_chapter1_transit_visit_reserve_to_lighthouse",
+    "zoneLocation": "RezervBase",
+    "zoneType": "visit",
+    "flareType": "",
+    "position": {
+      "x": 239.3728,
+      "y": -6.520722,
+      "z": -124.2742,
+      "w": 0.0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "scale": {
+      "x": 8,
+      "y": 4,
+      "z": 12,
+      "w": 0.0
+    },
+    "groupPosition": []
+  },
+  {
+    "zoneId": "story_chapter1_transit_visit_custom_to_reserve",
+    "zoneName": "story_chapter1_transit_visit_custom_to_reserve",
+    "zoneLocation": "bigmap",
+    "zoneType": "visit",
+    "flareType": "",
+    "position": {
+      "x": 650.2074,
+      "y": 2.174768,
+      "z": 124.9596,
+      "w": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.06540313,
+      "z": 0.0,
+      "w": 0.9978589
+    },
+    "scale": {
+      "x": 21,
+      "y": 4,
+      "z": 7,
+      "w": 0
+    },
+    "groupPosition": []
+  },
+  {
+    "zoneId": "story_chapter1_transit_visit_to_lab",
+    "zoneName": "story_chapter1_transit_visit_to_lab",
+    "zoneLocation": "FactoryCommon",
+    "zoneType": "visit",
+    "flareType": "",
+    "position": {
+      "x": -26.36993,
+      "y": -3.50537,
+      "z": -39.91192,
+      "w": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "scale": {
+      "x": 6,
+      "y": 4,
+      "z": 2,
+      "w": 0
+    },
+    "groupPosition": []
+  },
+  {
+    "zoneId": "story_chapter1_transit_visit_to_lab",
+    "zoneName": "story_chapter1_transit_visit_to_lab",
+    "zoneLocation": "TarkovStreets",
+    "zoneType": "visit",
+    "flareType": "",
+    "position": {
+      "x": 209.3039,
+      "y": -7.295005,
+      "z": 82.1829,
+      "w": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "scale": {
+      "x": 7,
+      "y": 4,
+      "z": 2,
+      "w": 0
+    },
+    "groupPosition": []
+  },
+  {
+    "zoneId": "story_chapter1_visit_server_room_lab",
+    "zoneName": "story_chapter1_visit_server_room_lab",
+    "zoneLocation": "laboratory",
+    "zoneType": "visit",
+    "flareType": "",
+    "position": {
+      "x": -127.2559,
+      "y": 4.43823,
+      "z": -309.313,
+      "w": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "scale": {
+      "x": 26,
+      "y": 7,
+      "z": 42.6,
+      "w": 0
+    },
+    "groupPosition": []
+  },
+  {
+    "zoneId": "story_chapter1_visit_office_room_lab",
+    "zoneName": "story_chapter1_visit_office_room_lab",
+    "zoneLocation": "laboratory",
+    "zoneType": "visit",
+    "flareType": "",
+    "position": {
+      "x": -169.9345,
+      "y": 5.942223,
+      "z": -342.941,
+      "w": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "scale": {
+      "x": 18,
+      "y": 4,
+      "z": 14,
+      "w": 0
+    },
+    "groupPosition": []
+  },
+  {
+    "zoneId": "story_chapter1_visit_exifil_drainage_lab",
+    "zoneName": "story_chapter1_visit_exifil_drainage_lab",
+    "zoneLocation": "laboratory",
+    "zoneType": "visit",
+    "flareType": "",
+    "position": {
+      "x": -130.6169,
+      "y": -3.985455,
+      "z": -260.1336,
+      "w": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "scale": {
+      "x": 19,
+      "y": 7,
+      "z": 14,
+      "w": 0
+    },
+    "groupPosition": []
+  }
+]

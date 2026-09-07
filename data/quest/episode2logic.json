@@ -1,0 +1,81 @@
+{
+    "他们已经来了": {
+        "id": "他们已经来了",
+        "prequestdata": {
+            "陨落星辰5": {
+                "state": 16,
+                "cdtime": 10800,
+                "extracdtime": 21600
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "他们已经来了1": {
+        "id": "他们已经来了1",
+        "prequestdata": {
+            "他们已经来了": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "你被死神盯上了": {
+        "id": "你被死神盯上了",
+        "prequestdata": {
+            "他们已经来了1": {
+                "state": 4
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "他们已经来了2": {
+        "id": "他们已经来了2",
+        "prequestdata": {
+            "他们已经来了1": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "他们已经来了3": {
+        "id": "他们已经来了3",
+        "prequestdata": {
+            "他们已经来了2": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "他们已经来了4": {
+        "id": "他们已经来了4",
+        "prequestdata": {
+            "他们已经来了3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "他们已经来了5": {
+        "id": "他们已经来了5",
+        "prequestdata": {
+            "他们已经来了4": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    }
+}

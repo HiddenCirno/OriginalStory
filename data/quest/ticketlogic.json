@@ -1,0 +1,28 @@
+{
+    "后悔药": {
+        "id": "后悔药",
+        "prequestdata": {
+            "Batya1": {
+                "state": 16,
+                "cdtime": 3600,
+                "extracdtime": 3600
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "门票": {
+        "id": "门票",
+        "prequestdata": {
+            "后悔药": {
+                "state": 16,
+                "cdtime": 43200,
+                "extracdtime": 43200
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    }
+}

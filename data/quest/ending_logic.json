@@ -1,0 +1,97 @@
+{
+    "重新整备": {
+        "id": "重新整备",
+        "prequestdata": {
+            "无名者6": {
+                "state": 16
+            },
+            "门票": {
+                "state": 16
+            },
+            "神秘蓝焰7": {
+                "state": 16
+            },
+            "他们已经来了5": {
+                "state": 16
+            },
+            "迷宫4": {
+                "state": 16
+            },
+            "66d9cbb67b491f9d5304f6e6": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "踏上旅途": {
+        "id": "踏上旅途",
+        "prequestdata": {
+            "无名者6": {
+                "state": 16
+            },
+            "门票": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "凝视深渊之时": {
+        "id": "凝视深渊之时",
+        "prequestdata": {
+            "无名者6": {
+                "state": 16
+            },
+            "门票": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "自我放逐": {
+        "id": "自我放逐",
+        "prequestdata": {
+            "无名者6": {
+                "state": 16
+            },
+            "门票": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "为了全人类": {
+        "id": "为了全人类",
+        "prequestdata": {
+            "无名者6": {
+                "state": 16
+            },
+            "门票": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "成年礼": {
+        "id": "成年礼",
+        "prequestdata": {
+            "重新整备": {
+                "state": 16,
+                "cdtime": 129600,
+                "extracdtime": 259200
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "神秘蓝焰": {
+        "id": "神秘蓝焰",
+        "prequestdata": {
+            "塔科夫之旅9": {
+                "state": 16,
+                "cdtime": 10800,
+                "extracdtime": 21600
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "神秘蓝焰1": {
+        "id": "神秘蓝焰1",
+        "prequestdata": {
+            "神秘蓝焰": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "神秘蓝焰2": {
+        "id": "神秘蓝焰2",
+        "prequestdata": {
+            "神秘蓝焰1": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "神秘蓝焰3": {
+        "id": "神秘蓝焰3",
+        "prequestdata": {
+            "神秘蓝焰2": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "神秘蓝焰4": {
+        "id": "神秘蓝焰4",
+        "prequestdata": {
+            "神秘蓝焰3": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "神秘蓝焰5": {
+        "id": "神秘蓝焰5",
+        "prequestdata": {
+            "神秘蓝焰4": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "神秘蓝焰6": {
+        "id": "神秘蓝焰6",
+        "prequestdata": {
+            "神秘蓝焰5": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "神秘蓝焰7": {
+        "id": "神秘蓝焰7",
+        "prequestdata": {
+            "神秘蓝焰6": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    }
+}

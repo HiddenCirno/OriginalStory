@@ -1,0 +1,119 @@
+{
+    "后悔药": {
+        "ID": "后悔药",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/ticket.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "quest",
+                    "id": "后悔药_邂逅",
+                    "questid": "625d700cc48e6c62a440fab5",
+                    "status": 16
+                },
+                {
+                    "$type": "hand",
+                    "id": "后悔药_上交_蓝情报",
+                    "visible": [
+                        "后悔药_邂逅"
+                    ],
+                    "inraid": false,
+                    "itemid": "6389c8c5dbfd5e4b95197e6b",
+                    "count": 3
+                },
+                {
+                    "$type": "kill",
+                    "id": "后悔药_消灭目标",
+                    "visible": [
+                        "后悔药_上交_蓝情报"
+                    ],
+                    "oneraid": false,
+                    "onesession": true,
+                    "count": 15,
+                    "bot": "Any",
+                    "role": [],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 0,
+                    "distancetype": 3,
+                    "weapon": [],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                },
+                {
+                    "$type": "flare",
+                    "id": "后悔药_发射信号弹",
+                    "visible": [
+                        "后悔药_消灭目标"
+                    ],
+                    "oneraid": false,
+                    "zoneid": "story_ticket_flare_ultra_interchange"
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "后悔药_奖励物品_物品",
+                        "_tpl": "加固手提箱",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "后悔药",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": true,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "后悔药_奖励物品"
+            }
+        ]
+    },
+    "门票": {
+        "ID": "门票",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/ticket.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "门票_寻物_实验型信号干扰器",
+                    "inraid": false,
+                    "itemid": "实验型信号干扰器",
+                    "count": 1
+                },
+                {
+                    "$type": "findgroup",
+                    "id": "门票_寻物_解锁的加固手提箱",
+                    "inraid": false,
+                    "itemgroup": [
+                        "解锁的加固手提箱",
+                        "克鲁格洛夫的钥匙卡"
+                    ],
+                    "tags": [],
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    }
+}

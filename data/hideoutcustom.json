@@ -1,0 +1,53 @@
+{
+    "后室墙面_藏身处": {
+        "id": "后室墙面_藏身处",
+        "conditions": [
+            {
+                "$type": "block",
+                "id": "后室墙面锁定",
+                "locale": "以？？？完成剧情",
+                "count": 1
+            }
+        ],
+        "type": "wall",
+        "name": "后室墙面",
+        "shortname": "后室墙面",
+        "description": "后室墙面",
+        "enbale": true,
+        "target": "后室墙面"
+    },
+    "后室地砖_藏身处": {
+        "id": "后室地砖_藏身处",
+        "conditions": [
+            {
+                "$type": "block",
+                "id": "后室地砖锁定",
+                "locale": "以？？？完成剧情",
+                "count": 1
+            }
+        ],
+        "type": "floor",
+        "name": "后室地砖",
+        "shortname": "后室地砖",
+        "description": "后室地砖",
+        "enbale": true,
+        "target": "后室地砖"
+    },
+    "后室天花板_藏身处": {
+        "id": "后室天花板_藏身处",
+        "conditions": [
+            {
+                "$type": "block",
+                "id": "后室天花板锁定",
+                "locale": "以？？？完成剧情",
+                "count": 1
+            }
+        ],
+        "type": "ceiling",
+        "name": "后室天花板",
+        "shortname": "后室天花板",
+        "description": "后室天花板",
+        "enbale": true,
+        "target": "后室天花板"
+    }
+}

@@ -1,0 +1,331 @@
+{
+    "神秘蓝焰": {
+        "ID": "神秘蓝焰",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/episode1.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "visit",
+                    "id": "神秘蓝焰_森林营地踩点",
+                    "oneraid": true,
+                    "zoneid": "story_episode1_visit_emercom_camp_woods"
+                },
+                {
+                    "$type": "exit",
+                    "id": "神秘蓝焰_森林撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 2,
+                    "status": 3,
+                    "visible": [
+                        "神秘蓝焰_森林营地踩点"
+                    ],
+                    "chooseexitpoint": false,
+                    "exitpoint": ""
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "神秘蓝焰1": {
+        "ID": "神秘蓝焰1",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/episode1.png",
+        "TraderID": "5a7c2eca46aef81a7ca2145d",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "exit",
+                    "id": "神秘蓝焰1_任意地点撤离",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": 8191,
+                    "status": 63,
+                    "chooseexitpoint": false,
+                    "exitpoint": ""
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "神秘蓝焰2": {
+        "ID": "神秘蓝焰2",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/episode1.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "神秘蓝焰2_寻物_未知设备碎片",
+                    "inraid": false,
+                    "itemid": "未知设备碎片",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "神秘蓝焰3": {
+        "ID": "神秘蓝焰3",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/episode1.png",
+        "TraderID": "5a7c2eca46aef81a7ca2145d",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "神秘蓝焰3_上交_未知设备碎片",
+                    "inraid": false,
+                    "itemid": "未知设备碎片",
+                    "count": 1
+                },
+                {
+                    "$type": "exit",
+                    "id": "神秘蓝焰3_任意地点撤离",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": 8191,
+                    "status": 63,
+                    "chooseexitpoint": false,
+                    "exitpoint": ""
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "神秘蓝焰4": {
+        "ID": "神秘蓝焰4",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/episode1.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "place",
+                    "id": "神秘蓝焰4_安放装置",
+                    "time": 10,
+                    "itemid": "集成入侵电元",
+                    "zoneid": "story_episode1_placeitem_server_room_lab",
+                    "count": 1
+                },
+                {
+                    "$type": "exit",
+                    "id": "神秘蓝焰4_实验室撤离",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": 16,
+                    "status": 3,
+                    "visible": [
+                        "神秘蓝焰4_安放装置"
+                    ],
+                    "chooseexitpoint": false,
+                    "exitpoint": ""
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "神秘蓝焰4_初始物品_物品",
+                        "_tpl": "集成入侵电元",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "神秘蓝焰4",
+                "Stage": 0,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "神秘蓝焰4_初始物品"
+            }
+        ]
+    },
+    "神秘蓝焰5": {
+        "ID": "神秘蓝焰5",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/episode1.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "神秘蓝焰5_寻物_1156笔记",
+                    "inraid": false,
+                    "itemid": "1156笔记",
+                    "count": 1
+                },
+                {
+                    "$type": "exit",
+                    "id": "神秘蓝焰5_实验室撤离",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": 16,
+                    "status": 3,
+                    "visible": [
+                        "神秘蓝焰5_寻物_1156笔记"
+                    ],
+                    "chooseexitpoint": false,
+                    "exitpoint": ""
+                },
+                {
+                    "$type": "hand",
+                    "id": "神秘蓝焰5_上交_1156笔记",
+                    "inraid": false,
+                    "visible": [
+                        "神秘蓝焰5_实验室撤离"
+                    ],
+                    "itemid": "1156笔记",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "神秘蓝焰6": {
+        "ID": "神秘蓝焰6",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/episode1.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "神秘蓝焰6_寻物_邮政磁带1",
+                    "inraid": false,
+                    "itemid": "邮政磁带1",
+                    "count": 1
+                },
+                {
+                    "$type": "find",
+                    "id": "神秘蓝焰6_寻物_邮政磁带2",
+                    "inraid": false,
+                    "itemid": "邮政磁带2",
+                    "count": 1
+                },
+                {
+                    "$type": "find",
+                    "id": "神秘蓝焰6_寻物_邮政磁带3",
+                    "inraid": false,
+                    "itemid": "邮政磁带3",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "神秘蓝焰6_上交_邮政磁带1",
+                    "visible": [
+                        "神秘蓝焰6_寻物_邮政磁带1"
+                    ],
+                    "inraid": false,
+                    "itemid": "邮政磁带1",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "神秘蓝焰6_上交_邮政磁带2",
+                    "visible": [
+                        "神秘蓝焰6_寻物_邮政磁带2"
+                    ],
+                    "inraid": false,
+                    "itemid": "邮政磁带2",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "神秘蓝焰6_上交_邮政磁带3",
+                    "visible": [
+                        "神秘蓝焰6_寻物_邮政磁带3"
+                    ],
+                    "inraid": false,
+                    "itemid": "邮政磁带3",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "神秘蓝焰7": {
+        "ID": "神秘蓝焰7",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/episode1.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "神秘蓝焰7_寻物_1156规格文件",
+                    "inraid": false,
+                    "itemid": "1156规格文件",
+                    "count": 1
+                },
+                {
+                    "$type": "exit",
+                    "id": "神秘蓝焰7_街区撤离",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": 512,
+                    "status": 3,
+                    "visible": [
+                        "神秘蓝焰7_寻物_1156规格文件"
+                    ],
+                    "chooseexitpoint": false,
+                    "exitpoint": ""
+                },
+                {
+                    "$type": "hand",
+                    "id": "神秘蓝焰7_上交_1156规格文件",
+                    "visible": [
+                        "神秘蓝焰7_街区撤离"
+                    ],
+                    "inraid": false,
+                    "itemid": "1156规格文件",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "achievement",
+                "Target": "烈焰焚身",
+                "Quest": "神秘蓝焰7",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "神秘蓝焰7_成就奖励"
+            }
+        ]
+    }
+}

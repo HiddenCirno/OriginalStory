@@ -1,0 +1,54 @@
+[
+  {
+    "zoneId": "story_chapter4_visit_tgbuilding_streets",
+    "zoneName": "story_chapter4_visit_tgbuilding_streets",
+    "zoneLocation": "Shoreline",
+    "zoneType": "placeitem",
+    "flareType": "",
+    "position": {
+      "x": 57.65849,
+      "y": 2.242749,
+      "z": -64.34084,
+      "w": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "scale": {
+      "x": 20,
+      "y": 4,
+      "z": 14,
+      "w": 0
+    },
+    "groupPosition": []
+  },
+  {
+    "zoneId": "story_chapter4_visit_car_streets",
+    "zoneName": "story_chapter4_visit_car_streets",
+    "zoneLocation": "Shoreline",
+    "zoneType": "placeitem",
+    "flareType": "",
+    "position": {
+      "x": 36.95532,
+      "y": 3.621746,
+      "z": 347.617,
+      "w": 0
+    },
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "scale": {
+      "x": 4,
+      "y": 2,
+      "z": 4,
+      "w": 0
+    },
+    "groupPosition": []
+  }
+]

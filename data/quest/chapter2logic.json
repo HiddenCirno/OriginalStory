@@ -1,0 +1,76 @@
+{
+    "陨落星辰": {
+        "id": "陨落星辰",
+        "prequestdata": {
+            "塔科夫之旅9": {
+                "state": 16,
+                "cdtime": 3600,
+                "extracdtime": 3600
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "陨落星辰1": {
+        "id": "陨落星辰1",
+        "prequestdata": {
+            "陨落星辰": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "陨落星辰2": {
+        "id": "陨落星辰2",
+        "prequestdata": {
+            "陨落星辰1": {
+                "state": 16,
+                "cdtime": 3600,
+                "extracdtime": 3600
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "陨落星辰3": {
+        "id": "陨落星辰3",
+        "prequestdata": {
+            "陨落星辰2": {
+                "state": 16
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "陨落星辰4": {
+        "id": "陨落星辰4",
+        "prequestdata": {
+            "陨落星辰3": {
+                "state": 16,
+                "cdtime": 10800,
+                "extracdtime": 18000
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    },
+    "陨落星辰5": {
+        "id": "陨落星辰5",
+        "prequestdata": {
+            "陨落星辰4": {
+                "state": 16,
+                "cdtime": 3600,
+                "extracdtime": 10800
+            }
+        },
+        "pretraderstanding": {},
+        "pretraderlevel": {},
+        "prelevel": 0
+    }
+}

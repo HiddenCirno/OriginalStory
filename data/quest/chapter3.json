@@ -1,0 +1,316 @@
+{
+    "Batya": {
+        "ID": "Batya",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter3.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "visit",
+                    "id": "Batya_后山踩点",
+                    "oneraid": true,
+                    "zoneid": "story_chapter3_visit_bunker_shoreline"
+                },
+                {
+                    "$type": "exit",
+                    "id": "Batya_海岸线撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 32,
+                    "status": 3,
+                    "visible": [
+                        "Batya_后山踩点"
+                    ],
+                    "chooseexitpoint": false
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "Batya1": {
+        "ID": "Batya1",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter3.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "Batya1_寻物_Bogatyr小队臂章",
+                    "inraid": false,
+                    "itemid": "Bogatyr小队臂章",
+                    "count": 1
+                },
+                {
+                    "$type": "exit",
+                    "id": "Batya1_储备站撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 64,
+                    "status": 3,
+                    "visible": [
+                        "Batya1_寻物_Bogatyr小队臂章"
+                    ],
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "hand",
+                    "id": "Batya1_上交_Bogatyr小队臂章",
+                    "visible": [
+                        "Batya1_储备站撤离"
+                    ],
+                    "inraid": false,
+                    "itemid": "Bogatyr小队臂章",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "Batya2": {
+        "ID": "Batya2",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter3.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "visit",
+                    "id": "Batya2_森林ZB016踩点",
+                    "oneraid": true,
+                    "zoneid": "story_chapter3_visit_zb016_bunker_woods"
+                },
+                {
+                    "$type": "find",
+                    "id": "Batya2_寻物_Moreman的手机",
+                    "visible": [
+                        "Batya2_森林ZB016踩点"
+                    ],
+                    "inraid": false,
+                    "itemid": "Moreman的手机",
+                    "count": 1
+                },
+                {
+                    "$type": "exit",
+                    "id": "Batya2_森林撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 4,
+                    "status": 3,
+                    "visible": [
+                        "Batya2_寻物_Moreman的手机"
+                    ],
+                    "chooseexitpoint": false
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "Batya3": {
+        "ID": "Batya3",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter3.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "hand",
+                    "id": "Batya3_上交_Moreman的录音带1",
+                    "inraid": false,
+                    "itemid": "Moreman的录音带1",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "Batya3_上交_Moreman的录音带2",
+                    "inraid": false,
+                    "itemid": "Moreman的录音带2",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "Batya3_上交_Moreman的手机",
+                    "visible": [
+                        "Batya3_上交_Moreman的录音带1",
+                        "Batya3_上交_Moreman的录音带2"
+                    ],
+                    "inraid": false,
+                    "itemid": "Moreman的手机",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "Batya4": {
+        "ID": "Batya4",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter3.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "exit",
+                    "id": "Batya4_等待安娜联系Voevoda",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 8191,
+                    "status": 63,
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "quest",
+                    "id": "Batya4_设法联系Lightkeeper",
+                    "questid": "625d700cc48e6c62a440fab5",
+                    "status": 16
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "Batya5": {
+        "ID": "Batya5",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter3.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "quest",
+                    "id": "Batya5_询问Prapor",
+                    "questid": "好人难做",
+                    "status": 16
+                },
+                {
+                    "$type": "find",
+                    "id": "Batya5_寻物_提到将军的笔记",
+                    "visible": [
+                        "Batya5_询问Prapor"
+                    ],
+                    "inraid": false,
+                    "itemid": "提到将军的笔记",
+                    "count": 1
+                },
+                {
+                    "$type": "exit",
+                    "id": "Batya5_森林撤离",
+                    "oneraid": false,
+                    "count": 1,
+                    "location": 2,
+                    "status": 3,
+                    "visible": [
+                        "Batya5_寻物_提到将军的笔记"
+                    ],
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "hand",
+                    "id": "Batya5_上交_提到将军的笔记",
+                    "visible": [
+                        "Batya5_森林撤离"
+                    ],
+                    "inraid": false,
+                    "itemid": "提到将军的笔记",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "好人难做": {
+        "ID": "好人难做",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/5d77a10586f7745041358b41.jpg",
+        "TraderID": "54cb50c76803fa8b248b4571",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "exit",
+                    "id": "好人难做_询问Prapor",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 8191,
+                    "status": 63,
+                    "chooseexitpoint": false
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "Batya6": {
+        "ID": "Batya6",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter3.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "Batya6_寻物_间谍网络部署情况报告",
+                    "inraid": false,
+                    "itemid": "间谍网络部署情况报告",
+                    "count": 1
+                },
+                {
+                    "$type": "exit",
+                    "id": "Batya6_灯塔撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 256,
+                    "status": 3,
+                    "visible": [
+                        "Batya6_寻物_间谍网络部署情况报告"
+                    ],
+                    "chooseexitpoint": false
+                },
+                {
+                    "$type": "hand",
+                    "id": "Batya6_上交_间谍网络部署情况报告",
+                    "visible": [
+                        "Batya6_灯塔撤离"
+                    ],
+                    "inraid": false,
+                    "itemid": "间谍网络部署情况报告",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "achievement",
+                "Target": "并非巧合",
+                "Quest": "Batya6",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "Batya6_成就奖励"
+            }
+        ]
+    }
+}

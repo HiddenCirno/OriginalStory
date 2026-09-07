@@ -1,0 +1,80 @@
+[
+    {
+        "zoneId": "story_ticket_flare_ultra_interchange",
+        "zoneName": "story_ticket_flare_ultra_interchange",
+        "zoneLocation": "Interchange",
+        "zoneType": "flarezone",
+        "flareType": "Quest",
+        "position": {
+            "x": 196.7274,
+            "y": 36.34099,
+            "z": -55.46001,
+            "w": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+        },
+        "scale": {
+            "x": 181,
+            "y": 31,
+            "z": 481,
+            "w": 0
+        },
+        "groupPosition": []
+    },
+    {
+        "zoneId": "story_ending03_place_markedroom_lighthouse",
+        "zoneName": "story_ending03_place_markedroom_lighthouse",
+        "zoneLocation": "Lighthouse",
+        "zoneType": "placeitem",
+        "flareType": "",
+        "position": {
+            "x": 325.5473,
+            "y": 5.997518,
+            "z": 485.6857,
+            "w": 0
+        },
+        "rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0
+        },
+        "scale": {
+            "x": 6,
+            "y": 3,
+            "z": 3.0,
+            "w": 0
+        },
+        "groupPosition": []
+    },
+  {
+    "zoneId": "story_ending00_flare_tgbuilding_groundzero",
+    "zoneName": "story_ending00_flare_tgbuilding_groundzero",
+    "zoneLocation": "Sandbox_high",
+    "zoneType": "SandboxCommon",
+    "flareType": "",
+    "position": {
+      "x": 1.133793,
+      "y": 29.16272,
+      "z": 21.63673,
+      "w": 0.0
+    },
+    "rotation": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "scale": {
+      "x": 138,
+      "y": 22.0,
+      "z": 170,
+      "w": 0.0
+    },
+    "groupPosition": []
+  }
+]

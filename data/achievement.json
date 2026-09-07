@@ -1,0 +1,1337 @@
+[
+    {
+        "id": "探路者",
+        "img": "/files/icon/chapter1.png",
+        "name": "探路者",
+        "description": "完成序幕剧情，全面探索塔科夫，了解其中的各方人物",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "探路者_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "烈焰焚身",
+        "img": "/files/icon/episode1.png",
+        "name": "烈焰焚身",
+        "description": "找到第1156号项目的完整技术规格文档，了解关于“蓝焰”的全部真相",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "烈焰焚身_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "指引明路的苍蓝星",
+        "img": "/files/icon/chapter2.png",
+        "name": "指引明路的苍蓝星",
+        "description": "将TerraGroup的手提箱交给Prapor，换取一个渺茫的机会",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "指引明路的苍蓝星_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "并非巧合",
+        "img": "/files/icon/chapter3.png",
+        "name": "并非巧合",
+        "description": "查明Bogatyr小队的遭遇，揭开塔科夫幕后黑手的冰山一角",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "并非巧合_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "旁观者清",
+        "img": "/files/icon/episode2_1.png",
+        "name": "旁观者清",
+        "description": "揭开邪教徒的真正目的",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "旁观者清_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "灯昏人散",
+        "img": "/files/icon/episode2_2.png",
+        "name": "灯昏人散",
+        "description": "关闭ARRS系统，从祭司们的监视中解救塔科夫",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "灯昏人散_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "忒修斯",
+        "img": "/files/icon/episode3.png",
+        "name": "忒修斯",
+        "description": "揭露“迷宫”的秘密",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "忒修斯_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "端倪渐显",
+        "img": "/files/icon/chapter4.png",
+        "name": "端倪渐显",
+        "description": "追查“无名者”的线索，你成功引起了某些人的注意……",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "端倪渐显_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "结局1",
+        "img": "/files/icon/ending1_2.png",
+        "name": "结局一：“逃离”塔科夫",
+        "description": "在Prapor的帮助下离开这座城市，选择对其它声音视而不见",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "结局1_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "幸存者",
+        "img": "/files/icon/ending1_1.png",
+        "name": "幸存者",
+        "description": "逃离塔科夫，不顾一切。",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "幸存者_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "customization",
+                "Target": "68fb638ebe7aff394b016818",
+                "Quest": "幸存者",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "幸存者_背景奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68dfaffe3c5a40e30f0e55b0",
+                "Quest": "幸存者",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "幸存者_狗牌样式奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68df9abc5d4e135b130392d2",
+                "Quest": "幸存者",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "幸存者_墙壁奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68df9a053772634bf40f4f18",
+                "Quest": "幸存者",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "幸存者_地板奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68df9a925d4e135b130392ce",
+                "Quest": "幸存者",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "幸存者_天花板奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "幸存者_臂带奖励_物品",
+                        "_tpl": "68d41e65a706eba9a204ed27",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "幸存者",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 1,
+                "ID": "幸存者_臂带奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "幸存者_海报奖励_物品",
+                        "_tpl": "68df97725d4e135b130392c8",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "幸存者",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 1,
+                "ID": "幸存者_海报奖励"
+            }
+        ]
+    },
+    {
+        "id": "结局2",
+        "img": "/files/icon/ending2_2.png",
+        "name": "结局二：坠入深渊",
+        "description": "与“他们”达成合作，释放恶魔，然后远离这片大地，但它终究还是会找上你",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "结局2_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "陨落之人",
+        "img": "/files/icon/ending2_1.png",
+        "name": "陨落之人",
+        "description": "逃离塔科夫，最终堕入黑暗。",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "陨落之人_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "customization",
+                "Target": "68fb63afc09c82a74d07d21f",
+                "Quest": "陨落之人",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "陨落之人_背景奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68dfafeadfaadbd4eb06539a",
+                "Quest": "陨落之人",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "陨落之人_狗牌样式奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68df9ac5a38a5e37d80df6cd",
+                "Quest": "陨落之人",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "陨落之人_墙壁奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68df9a14972cf1e1ec07256c",
+                "Quest": "陨落之人",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "陨落之人_地板奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68df9a9ba38a5e37d80df6cb",
+                "Quest": "陨落之人",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "陨落之人_天花板奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "陨落之人_臂带奖励_物品",
+                        "_tpl": "68d41f017cb8c03da8079004",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "陨落之人",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 1,
+                "ID": "陨落之人_臂带奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "陨落之人_海报奖励_物品",
+                        "_tpl": "68df97792e6cd294e908d1e9",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "陨落之人",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 1,
+                "ID": "陨落之人_海报奖励"
+            }
+        ]
+    },
+    {
+        "id": "结局3",
+        "img": "/files/icon/ending3_2.png",
+        "name": "结局三：永世沉沦",
+        "description": "在Lightkeeper的帮助下离开塔科夫，但，代价是什么呢……",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "结局3_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "旧债沉疴",
+        "img": "/files/icon/ending3_1.png",
+        "name": "旧债沉疴",
+        "description": "逃离了塔科夫 ，但永远没法逃离自己。",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "旧债沉疴_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "customization",
+                "Target": "68fb63be323974a4ae011df8",
+                "Quest": "旧债沉疴",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "旧债沉疴_背景奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68dfaffe3c5a40e30f0e55b0",
+                "Quest": "旧债沉疴",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "旧债沉疴_狗牌样式奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68df9b2642e96f583d042b8c",
+                "Quest": "旧债沉疴",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "旧债沉疴_墙壁奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68df9a222e6cd294e908d1eb",
+                "Quest": "旧债沉疴",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "旧债沉疴_地板奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68df9aa45d4e135b130392d0",
+                "Quest": "旧债沉疴",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "旧债沉疴_天花板奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "旧债沉疴_臂带奖励_物品",
+                        "_tpl": "68d41fb0a1c275dbaa0798bf",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "旧债沉疴",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 1,
+                "ID": "旧债沉疴_臂带奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "旧债沉疴_海报奖励_物品",
+                        "_tpl": "68df977e972cf1e1ec072568",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "旧债沉疴",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 1,
+                "ID": "旧债沉疴_海报奖励"
+            }
+        ]
+    },
+    {
+        "id": "结局4",
+        "img": "/files/icon/ending4_2.png",
+        "name": "结局四：地球之光，要勇敢",
+        "description": "离开这座城市，并且在Kerman的帮助下将TerraGroup的阴谋和邪恶罪行公之于众，拯救世界",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "结局4_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "救星",
+        "img": "/files/icon/ending4_1.png",
+        "name": "救星",
+        "description": "逃离了塔科夫，同时拯救了全人类。",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "救星_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "customization",
+                "Target": "68fb63c9be7aff394b01681a",
+                "Quest": "救星",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "救星_背景奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68dfb00742e96f583d042bd2",
+                "Quest": "救星",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "救星_狗牌样式奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68df9b2e3772634bf40f4f1c",
+                "Quest": "救星",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "救星_墙壁奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68df9a2d3772634bf40f4f1a",
+                "Quest": "救星",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "救星_地板奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "68df9aaf637781242a0b22fa",
+                "Quest": "救星",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "救星_天花板奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "救星_臂带奖励_物品",
+                        "_tpl": "68d41fde2937f3f17c04864d",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "救星",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 1,
+                "ID": "救星_臂带奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "救星_海报奖励_物品",
+                        "_tpl": "68df9785beba86572e097ce8",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "救星",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 1,
+                "ID": "救星_海报奖励"
+            }
+        ]
+    },
+    {
+        "id": "结局0",
+        "img": "/files/icon/anastasia.png",
+        "name": "结局零：流浪新世界",
+        "description": "与她同行，向全世界揭露“无名者”的真相",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "结局0_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "历史前进之日",
+        "img": "/files/icon/anastasia.png",
+        "name": "历史前进之日",
+        "description": "逃离塔科夫，改写所有人的命运。",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "历史前进之日_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": [
+            {
+                "$type": "customization",
+                "Target": "后室墙面",
+                "Quest": "历史前进之日",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "历史前进之日_墙壁奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "后室地砖",
+                "Quest": "历史前进之日",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "历史前进之日_地板奖励"
+            },
+            {
+                "$type": "customization",
+                "Target": "后室天花板",
+                "Quest": "历史前进之日",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "ID": "历史前进之日_天花板奖励"
+            },
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "历史前进之日_臂带奖励_物品",
+                        "_tpl": "彭罗斯三角臂带",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "历史前进之日",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": true,
+                "Count": 1,
+                "ID": "历史前进之日_臂带奖励"
+            }
+        ]
+    },
+    {
+        "id": "结局-1",
+        "img": "/files/icon/anastasia.png",
+        "name": "结局负一：命定之死",
+        "description": "骑士堂吉诃德向着风车发起了冲锋，最终倒在了长夜破晓之前",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "结局-1_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    },
+    {
+        "id": "尘归尘土归土",
+        "img": "/files/icon/anastasia.png",
+        "name": "尘归尘，土归土",
+        "description": "无名小卒，还是名扬天下？现在看来，后者比你想象的还要难。所幸，你还有重来的机会",
+        "rarity": "Legendary",
+        "side": "All",
+        "instantComplete": false,
+        "showNotificationsInGame": false,
+        "showProgress": false,
+        "hidden": true,
+        "showConditions": false,
+        "progressBarEnabled": false,
+        "conditions": {
+            "finish": [
+                {
+                    "$type": "kill",
+                    "id": "尘归尘土归土_需求",
+                    "locale": "？？？",
+                    "oneraid": false,
+                    "count": 10000,
+                    "bot": "Savage",
+                    "role": [
+                        "shooterBTR"
+                    ],
+                    "bodyPart": 0,
+                    "daytime": [
+                        0,
+                        0
+                    ],
+                    "distance": 1000,
+                    "distancetype": 3,
+                    "weapon": [
+                        "5bffdd7e0db834001b734a1a"
+                    ],
+                    "mod": [],
+                    "location": 8191,
+                    "zone": [],
+                    "equip": [],
+                    "enemyequip": []
+                }
+            ],
+            "failed": []
+        },
+        "rewards": []
+    }
+]

@@ -1,0 +1,288 @@
+{
+    "Moreman的磁带1": {
+        "$type": "locked",
+        "ID": "Moreman的磁带1",
+        "Area": 10,
+        "AreaLevel": 1,
+        "Output": "Moreman的录音带1",
+        "OutputCount": 1,
+        "Time": 43200,
+        "NeedFuel": true,
+        "Locked": true,
+        "Quest": "Batya3",
+        "QuestStage": 0,
+        "Unknown": false,
+        "Require": {
+            "Tool": {
+                "Moreman的手机": 1
+            },
+            "Item": {
+                "5672cb124bdc2d1a0f8b4568": 2,
+                "57347baf24597738002c6178": 1,
+                "56742c324bdc2d150f8b456d": 1
+            }
+        }
+    },
+    "Moreman的磁带2": {
+        "$type": "locked",
+        "ID": "Moreman的磁带2",
+        "Area": 10,
+        "AreaLevel": 1,
+        "Output": "Moreman的录音带2",
+        "OutputCount": 1,
+        "Time": 43200,
+        "NeedFuel": true,
+        "Locked": true,
+        "Quest": "Batya3",
+        "QuestStage": 0,
+        "Unknown": false,
+        "Require": {
+            "Tool": {
+                "Moreman的手机": 1
+            },
+            "Item": {
+                "5c06782b86f77426df5407d2": 1,
+                "57347baf24597738002c6178": 1,
+                "5c06779c86f77426e00dd782": 1
+            }
+        }
+    },
+    "KORD14站点钥匙卡": {
+        "$type": "locked",
+        "ID": "KORD14站点钥匙卡",
+        "Area": 11,
+        "AreaLevel": 1,
+        "Output": "Arshavin钥匙卡",
+        "OutputCount": 1,
+        "Time": 28800,
+        "NeedFuel": true,
+        "Locked": true,
+        "Quest": "他们已经来了5",
+        "QuestStage": 0,
+        "Unknown": false,
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "损坏的Arshavin钥匙卡": 1,
+                "590c621186f774138d11ea29": 1,
+                "62a0a16d0b9d3c46de5b6e97": 1,
+                "5c05300686f7746dce784e5d": 1
+            }
+        }
+    },
+    "恢复硬盘数据": {
+        "$type": "locked",
+        "ID": "恢复硬盘数据",
+        "Area": 11,
+        "AreaLevel": 1,
+        "Output": "硬盘恢复内容",
+        "OutputCount": 1,
+        "Time": 43200,
+        "NeedFuel": true,
+        "Locked": true,
+        "Quest": "无名者3",
+        "QuestStage": 0,
+        "Unknown": false,
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "577e1c9d2459773cd707c525": 1,
+                "勒热夫斯基的硬盘": 1,
+                "590a3b0486f7743954552bdb": 3,
+                "573477e124597737dd42e191": 2
+            }
+        }
+    },
+    "解密APU盘": {
+        "$type": "locked",
+        "ID": "解密APU盘",
+        "Area": 11,
+        "AreaLevel": 1,
+        "Output": "AP解密U盘",
+        "OutputCount": 1,
+        "Time": 43200,
+        "NeedFuel": true,
+        "Locked": true,
+        "Quest": "无名者6",
+        "QuestStage": 0,
+        "Unknown": false,
+        "Require": {
+            "Tool": {},
+            "Item": {
+                "AP加密U盘": 1,
+                "57347baf24597738002c6178": 3,
+                "5c05308086f7746b2101e90b": 1,
+                "5734779624597737e04bf329": 3
+            }
+        }
+    },
+    "打开手提箱": {
+        "$type": "locked",
+        "ID": "打开手提箱",
+        "Area": 10,
+        "AreaLevel": 1,
+        "Output": "解锁的加固手提箱",
+        "OutputCount": 1,
+        "Time": 216000,
+        "NeedFuel": true,
+        "Locked": true,
+        "Quest": "门票",
+        "QuestStage": 0,
+        "Unknown": false,
+        "Require": {
+            "Tool": {
+                "实验型信号干扰器": 1
+            },
+            "Item": {
+                "590c2e1186f77425357b6124": 1,
+                "加固手提箱": 1
+            }
+        }
+    },
+    "激活钥匙卡": {
+        "$type": "locked",
+        "ID": "激活钥匙卡",
+        "Area": 11,
+        "AreaLevel": 1,
+        "Output": "激活的克鲁格洛夫的钥匙卡",
+        "OutputCount": 1,
+        "Time": 180000,
+        "NeedFuel": true,
+        "Locked": true,
+        "Quest": "门票",
+        "QuestStage": 1,
+        "Unknown": true,
+        "Require": {
+            "Tool": {
+                "RFID钥匙卡加密装置": 1,
+                "TerraGroup实验室总钥匙卡": 1
+            },
+            "Item": {
+                "空白RFID钥匙卡": 1,
+                "克鲁格洛夫的钥匙卡": 1
+            }
+        }
+    },
+    "结局2门票": {
+        "$type": "locked",
+        "ID": "结局2门票",
+        "Area": 11,
+        "AreaLevel": 1,
+        "Output": "以Prapor提供的哈希代码重新编码的钥匙卡",
+        "OutputCount": 1,
+        "Time": 19800,
+        "NeedFuel": true,
+        "Locked": true,
+        "Quest": "凝视深渊之时",
+        "QuestStage": 1,
+        "Unknown": true,
+        "Require": {
+            "Tool": {
+                "装有Prapor哈希代码的U盘": 1,
+                "激活的克鲁格洛夫的钥匙卡": 1
+            },
+            "Item": {
+                "空白RFID钥匙卡": 1
+            }
+        }
+    },
+    "侦查数据编码": {
+        "$type": "locked",
+        "ID": "侦查数据编码",
+        "Area": 11,
+        "AreaLevel": 1,
+        "Output": "地形情报军用闪存",
+        "OutputCount": 1,
+        "Time": 14400,
+        "NeedFuel": true,
+        "Locked": true,
+        "Quest": "自我放逐",
+        "QuestStage": 0,
+        "Unknown": false,
+        "Require": {
+            "Tool": {
+                "灯塔地形情报地图": 1,
+                "自然保护区地形情报地图": 1,
+                "海关地形情报地图": 1,
+                "城市地形情报地图": 1,
+                "工厂厂区地形情报地图": 1
+            },
+            "Item": {
+                "62a0a16d0b9d3c46de5b6e97": 1
+            }
+        }
+    },
+    "罪证SSD": {
+        "$type": "locked",
+        "ID": "罪证SSD",
+        "Area": 11,
+        "AreaLevel": 1,
+        "Output": "TG黑料",
+        "OutputCount": 1,
+        "Time": 19800,
+        "NeedFuel": true,
+        "Locked": true,
+        "Quest": "为了全人类",
+        "QuestStage": 0,
+        "Unknown": false,
+        "Require": {
+            "Tool": {
+                "Lab报告": 1,
+                "TG人事": 1,
+                "Lab研发": 1,
+                "TG财务": 1
+            },
+            "Item": {
+                "590c392f86f77444754deb29": 1
+            }
+        }
+    },
+    "结局4门票": {
+        "$type": "locked",
+        "ID": "结局4门票",
+        "Area": 11,
+        "AreaLevel": 1,
+        "Output": "以Kerman提供的哈希代码重新编码的钥匙卡",
+        "OutputCount": 1,
+        "Time": 19800,
+        "NeedFuel": true,
+        "Locked": true,
+        "Quest": "为了全人类",
+        "QuestStage": 1,
+        "Unknown": true,
+        "Require": {
+            "Tool": {
+                "装有Kerman哈希代码的U盘": 1,
+                "激活的克鲁格洛夫的钥匙卡": 1
+            },
+            "Item": {
+                "空白RFID钥匙卡": 1
+            }
+        }
+    },
+    "罪证箱子": {
+        "$type": "locked",
+        "ID": "罪证箱子",
+        "Area": 11,
+        "AreaLevel": 1,
+        "Output": "TG证据箱",
+        "OutputCount": 1,
+        "Time": 43200,
+        "NeedFuel": true,
+        "Locked": true,
+        "Quest": "成年礼",
+        "QuestStage": 0,
+        "Unknown": false,
+        "Require": {
+            "Tool": {
+                "Lab报告": 1,
+                "TG人事": 1,
+                "Lab研发": 1,
+                "TG财务": 1
+            },
+            "Item": {
+                "544a11ac4bdc2d470e8b456a": 1
+            }
+        }
+    }
+}

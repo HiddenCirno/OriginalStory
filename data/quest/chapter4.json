@@ -1,0 +1,271 @@
+{
+    "无名者": {
+        "ID": "无名者",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter4.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "visit",
+                    "id": "无名者_街区TG大楼踩点",
+                    "oneraid": true,
+                    "zoneid": "story_chapter4_visit_tgbuilding_streets"
+                },
+                {
+                    "$type": "exit",
+                    "id": "无名者_街区撤离",
+                    "oneraid": true,
+                    "count": 1,
+                    "location": 512,
+                    "status": 3,
+                    "visible": [
+                        "无名者_街区TG大楼踩点"
+                    ],
+                    "chooseexitpoint": false
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "无名者1": {
+        "ID": "无名者1",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter4.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "hand",
+                    "id": "无名者1_上交_货运传真",
+                    "inraid": false,
+                    "itemid": "货运传真",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "无名者1_上交_TG文件",
+                    "inraid": false,
+                    "itemid": "TG文件",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "无名者2": {
+        "ID": "无名者2",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter4.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "hand",
+                    "id": "无名者2_上交_货运清单",
+                    "inraid": false,
+                    "itemid": "货运清单",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "无名者3": {
+        "ID": "无名者3",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter4.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "visit",
+                    "id": "无名者3_街区车踩点",
+                    "oneraid": true,
+                    "zoneid": "story_chapter4_visit_car_streets"
+                },
+                {
+                    "$type": "find",
+                    "id": "无名者3_寻物_勒热夫斯基的硬盘",
+                    "parent": "无名者3_上交_硬盘恢复内容",
+                    "visible": [
+                        "无名者3_街区车踩点"
+                    ],
+                    "inraid": false,
+                    "itemid": "勒热夫斯基的硬盘",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "无名者3_上交_硬盘恢复内容",
+                    "visible": [
+                        "无名者3_街区车踩点"
+                    ],
+                    "inraid": false,
+                    "itemid": "硬盘恢复内容",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "无名者4": {
+        "ID": "无名者4",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter4.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "无名者4_寻物_燃料催化剂测试报告",
+                    "inraid": false,
+                    "itemid": "燃料催化剂测试报告",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "无名者4_上交_燃料催化剂测试报告",
+                    "visible": [
+                        "无名者4_寻物_燃料催化剂测试报告"
+                    ],
+                    "inraid": false,
+                    "itemid": "燃料催化剂测试报告",
+                    "count": 1
+                },
+                {
+                    "$type": "find",
+                    "id": "无名者4_寻物_烧焦的文件",
+                    "inraid": false,
+                    "itemid": "烧焦的文件",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "无名者4_上交_烧焦的文件",
+                    "visible": [
+                        "无名者4_寻物_烧焦的文件"
+                    ],
+                    "inraid": false,
+                    "itemid": "烧焦的文件",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "item",
+                "FindInRaid": true,
+                "Items": [
+                    {
+                        "_id": "无名者4_初始物品_物品",
+                        "_tpl": "66acd6702b17692df20144c0",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ],
+                "Quest": "无名者4",
+                "Stage": 0,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "Count": 1,
+                "ID": "无名者4_初始物品"
+            }
+        ]
+    },
+    "无名者5": {
+        "ID": "无名者5",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter4.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "hand",
+                    "id": "无名者5_上交_AP会议录音带1",
+                    "inraid": false,
+                    "itemid": "AP会议录音带1",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "无名者5_上交_AP会议录音带2",
+                    "inraid": false,
+                    "itemid": "AP会议录音带2",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": []
+    },
+    "无名者6": {
+        "ID": "无名者6",
+        "Type": 11,
+        "ImagePath": "/files/quest/icon/chapter4.png",
+        "TraderID": "Anastasia",
+        "Restartable": false,
+        "Location": "any",
+        "QuestData": {
+            "Finish": [
+                {
+                    "$type": "find",
+                    "id": "无名者6_寻物_AP加密U盘",
+                    "parent": "无名者6_上交_AP解密U盘",
+                    "inraid": false,
+                    "itemid": "AP加密U盘",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "无名者6_上交_AP解密U盘",
+                    "inraid": false,
+                    "itemid": "AP解密U盘",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "无名者6_上交_总部命令",
+                    "visible": [
+                        "无名者6_上交_AP解密U盘"
+                    ],
+                    "inraid": false,
+                    "itemid": "总部命令",
+                    "count": 1
+                }
+            ],
+            "Failed": []
+        },
+        "QuestReward": [
+            {
+                "$type": "achievement",
+                "Target": "端倪渐显",
+                "Quest": "无名者6",
+                "Stage": 1,
+                "Hidden": false,
+                "Unknown": false,
+                "IsAchievement": false,
+                "ID": "无名者6_成就奖励"
+            }
+        ]
+    }
+}
