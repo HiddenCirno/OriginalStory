@@ -20,7 +20,7 @@
                     "oneraid": true,
                     "count": 1,
                     "location": 32,
-                    "status": 3,
+                    "status": 1,
                     "visible": [
                         "Batya_后山踩点"
                     ],
@@ -53,7 +53,7 @@
                     "oneraid": false,
                     "count": 1,
                     "location": 64,
-                    "status": 3,
+                    "status": 1,
                     "visible": [
                         "Batya1_寻物_Bogatyr小队臂章"
                     ],
@@ -104,8 +104,8 @@
                     "id": "Batya2_森林撤离",
                     "oneraid": false,
                     "count": 1,
-                    "location": 4,
-                    "status": 3,
+                    "location": 2,
+                    "status": 33,
                     "visible": [
                         "Batya2_寻物_Moreman的手机"
                     ],
@@ -215,7 +215,7 @@
                     "oneraid": false,
                     "count": 1,
                     "location": 2,
-                    "status": 3,
+                    "status": 33,
                     "visible": [
                         "Batya5_寻物_提到将军的笔记"
                     ],
@@ -281,7 +281,7 @@
                     "oneraid": false,
                     "count": 1,
                     "location": 256,
-                    "status": 3,
+                    "status": 33,
                     "visible": [
                         "Batya6_寻物_间谍网络部署情况报告"
                     ],

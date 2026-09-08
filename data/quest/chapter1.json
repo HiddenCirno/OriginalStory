@@ -14,7 +14,7 @@
                     "oneraid": false,
                     "count": 1,
                     "location": 3072,
-                    "status": 3,
+                    "status": 33,
                     "chooseexitpoint": false,
                     "exitpoint": ""
                 }
@@ -56,7 +56,7 @@
                     "oneraid": true,
                     "count": 1,
                     "location": 512,
-                    "status": 3,
+                    "status": 1,
                     "visible": [
                         "塔科夫之旅1_立交桥转移"
                     ],
@@ -111,7 +111,7 @@
                     "oneraid": true,
                     "count": 1,
                     "location": 1,
-                    "status": 3,
+                    "status": 1,
                     "visible": [
                         "塔科夫之旅2_立交桥转移"
                     ],
@@ -181,7 +181,7 @@
                     "oneraid": true,
                     "count": 1,
                     "location": 12,
-                    "status": 3,
+                    "status": 1,
                     "visible": [
                         "塔科夫之旅3_海关转移"
                     ],
@@ -264,7 +264,7 @@
                     "oneraid": true,
                     "count": 1,
                     "location": 2,
-                    "status": 3,
+                    "status": 1,
                     "visible": [
                         "塔科夫之旅4_工厂转移"
                     ],
@@ -307,7 +307,7 @@
                     "oneraid": true,
                     "count": 1,
                     "location": 32,
-                    "status": 3,
+                    "status": 1,
                     "visible": [
                         "塔科夫之旅5_海岸线码头踩点"
                     ],
@@ -355,7 +355,7 @@
                     "oneraid": true,
                     "count": 1,
                     "location": 2,
-                    "status": 3,
+                    "status": 1,
                     "visible": [
                         "塔科夫之旅6_消灭目标"
                     ],
@@ -456,7 +456,7 @@
                     "oneraid": true,
                     "count": 1,
                     "location": 256,
-                    "status": 3,
+                    "status": 1,
                     "visible": [
                         "塔科夫之旅7_灯塔踩点"
                     ],
@@ -617,7 +617,7 @@
                     "oneraid": true,
                     "count": 1,
                     "location": 16,
-                    "status": 3,
+                    "status": 1,
                     "visible": [
                         "塔科夫之旅9_实验室机房踩点",
                         "塔科夫之旅9_实验室经理办踩点",

@@ -20,7 +20,7 @@
                     "oneraid": true,
                     "count": 1,
                     "location": 2,
-                    "status": 3,
+                    "status": 1,
                     "visible": [
                         "神秘蓝焰_森林营地踩点"
                     ],
@@ -131,7 +131,7 @@
                     "oneraid": false,
                     "count": 1,
                     "location": 16,
-                    "status": 3,
+                    "status": 33,
                     "visible": [
                         "神秘蓝焰4_安放装置"
                     ],
@@ -186,7 +186,7 @@
                     "oneraid": false,
                     "count": 1,
                     "location": 16,
-                    "status": 3,
+                    "status": 33,
                     "visible": [
                         "神秘蓝焰5_寻物_1156笔记"
                     ],
@@ -295,7 +295,7 @@
                     "oneraid": false,
                     "count": 1,
                     "location": 512,
-                    "status": 3,
+                    "status": 33,
                     "visible": [
                         "神秘蓝焰7_寻物_1156规格文件"
                     ],

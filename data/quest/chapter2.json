@@ -20,7 +20,7 @@
                     "oneraid": true,
                     "count": 1,
                     "location": 2,
-                    "status": 3,
+                    "status": 1,
                     "visible": [
                         "陨落星辰_坠机点踩点"
                     ],
@@ -119,7 +119,7 @@
                     "oneraid": true,
                     "count": 1,
                     "location": 32,
-                    "status": 3,
+                    "status": 1,
                     "visible": [
                         "陨落星辰2_安放黑匣子"
                     ],
@@ -235,7 +235,7 @@
                     "oneraid": false,
                     "count": 1,
                     "location": 2,
-                    "status": 3,
+                    "status": 33,
                     "visible": [
                         "陨落星辰5_寻物_加固手提箱"
                     ],

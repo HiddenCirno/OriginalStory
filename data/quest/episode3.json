@@ -170,7 +170,7 @@
                     "oneraid": false,
                     "count": 1,
                     "location": 4096,
-                    "status": 3,
+                    "status": 1,
                     "visible": [
                         "迷宫3_寻物_死去科学家的录音带"
                     ],
@@ -235,7 +235,7 @@
                     "oneraid": false,
                     "count": 1,
                     "location": 32,
-                    "status": 3,
+                    "status": 1,
                     "visible": [
                         "迷宫4_寻物_迷宫设施研发报告"
                     ],
