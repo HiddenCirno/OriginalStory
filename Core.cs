@@ -29,7 +29,7 @@ public record ModMetadata : IModMetadata
 
     public List<string>? Contributors { get; init; }
 
-    public SemanticVersioning.Version Version { get; init; } = new("1.4.6");
+    public SemanticVersioning.Version Version { get; init; } = new("1.4.7");
 
     public SemanticVersioning.Range SptVersion { get; init; } = new("~4.1.0");
 
@@ -187,7 +187,11 @@ public class Core(
             AchievementUtils.GetAchievement("694c60b50cb1e6ad639a5723", context.DB).Rewards = new List<Reward>();
         };
 
-        EventManager.DataLoadEvent.FixItemCompatibleEvent += (LoadModContext context) => ItemUtils.GetItem(ItemTpl.KEY_OBSERVATION_ROOM, context)?.Properties?.MaximumNumberOfUsage = 0;
+        EventManager.DataLoadEvent.FixItemCompatibleEvent += (LoadModContext context) =>
+        {
+            ItemUtils.GetItem(ItemTpl.KEY_OBSERVATION_ROOM, context)?.Properties?.MaximumNumberOfUsage = 0;
+            context.DB.GetHandbook().Items.FirstOrDefault(x => x.Id == "68bede355f1439bc3c0bf814")?.ParentId = ERagfairTagsType.眼部装备;
+        };
 
         return Task.CompletedTask;
     }
