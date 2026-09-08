@@ -92,7 +92,7 @@
                 {
                     "$type": "visit",
                     "id": "无名者3_街区车踩点",
-                    "oneraid": true,
+                    "oneraid": false,
                     "zoneid": "story_chapter4_visit_car_streets"
                 },
                 {

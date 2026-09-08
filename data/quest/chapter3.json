@@ -50,7 +50,7 @@
                 {
                     "$type": "exit",
                     "id": "Batya1_储备站撤离",
-                    "oneraid": true,
+                    "oneraid": false,
                     "count": 1,
                     "location": 64,
                     "status": 3,
@@ -86,7 +86,7 @@
                 {
                     "$type": "visit",
                     "id": "Batya2_森林ZB016踩点",
-                    "oneraid": true,
+                    "oneraid": false,
                     "zoneid": "story_chapter3_visit_zb016_bunker_woods"
                 },
                 {
@@ -102,7 +102,7 @@
                 {
                     "$type": "exit",
                     "id": "Batya2_森林撤离",
-                    "oneraid": true,
+                    "oneraid": false,
                     "count": 1,
                     "location": 4,
                     "status": 3,
@@ -167,7 +167,7 @@
                 {
                     "$type": "exit",
                     "id": "Batya4_等待安娜联系Voevoda",
-                    "oneraid": true,
+                    "oneraid": false,
                     "count": 1,
                     "location": 8191,
                     "status": 63,
@@ -248,7 +248,7 @@
                 {
                     "$type": "exit",
                     "id": "好人难做_询问Prapor",
-                    "oneraid": true,
+                    "oneraid": false,
                     "count": 1,
                     "location": 8191,
                     "status": 63,
@@ -278,7 +278,7 @@
                 {
                     "$type": "exit",
                     "id": "Batya6_灯塔撤离",
-                    "oneraid": true,
+                    "oneraid": false,
                     "count": 1,
                     "location": 256,
                     "status": 3,

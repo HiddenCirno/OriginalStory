@@ -11,7 +11,7 @@
                 {
                     "$type": "exit",
                     "id": "重新整备_任意地点撤离",
-                    "oneraid": true,
+                    "oneraid": false,
                     "count": 1,
                     "location": 8191,
                     "status": 63,

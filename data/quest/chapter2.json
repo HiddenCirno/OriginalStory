@@ -232,7 +232,7 @@
                 {
                     "$type": "exit",
                     "id": "陨落星辰5_森林撤离",
-                    "oneraid": true,
+                    "oneraid": false,
                     "count": 1,
                     "location": 2,
                     "status": 3,

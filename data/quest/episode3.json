@@ -52,7 +52,7 @@
                 {
                     "$type": "exit",
                     "id": "黄金之茧_询问Jaeger",
-                    "oneraid": true,
+                    "oneraid": false,
                     "count": 1,
                     "location": 8191,
                     "status": 63,
@@ -64,7 +64,7 @@
                     "visible": [
                         "黄金之茧_询问Jaeger"
                     ],
-                    "oneraid": true,
+                    "oneraid": false,
                     "count": 1,
                     "location": 8191,
                     "status": 63,
@@ -151,7 +151,7 @@
                 {
                     "$type": "visit",
                     "id": "迷宫3_观察室踩点",
-                    "oneraid": true,
+                    "oneraid": false,
                     "zoneid": "story_episode3_visit_watch_room_labyrinth"
                 },
                 {
@@ -167,7 +167,7 @@
                 {
                     "$type": "exit",
                     "id": "迷宫3_迷宫撤离",
-                    "oneraid": true,
+                    "oneraid": false,
                     "count": 1,
                     "location": 4096,
                     "status": 3,

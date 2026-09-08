@@ -11,7 +11,7 @@
                 {
                     "$type": "visit",
                     "id": "他们已经来了_灯塔手术室踩点",
-                    "oneraid": true,
+                    "oneraid": false,
                     "zoneid": "qlight_extension_mechanik1_exploration1"
                 },
                 {
@@ -27,7 +27,7 @@
                 {
                     "$type": "exit",
                     "id": "他们已经来了_灯塔撤离",
-                    "oneraid": true,
+                    "oneraid": false,
                     "count": 1,
                     "location": 2,
                     "status": 3,
@@ -84,7 +84,7 @@
                 {
                     "$type": "exit",
                     "id": "你被死神盯上了_询问Mechanic",
-                    "oneraid": true,
+                    "oneraid": false,
                     "count": 1,
                     "location": 8191,
                     "status": 63,
