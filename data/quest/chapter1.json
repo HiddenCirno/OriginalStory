@@ -65,18 +65,7 @@
             ],
             "Failed": []
         },
-        "QuestReward": [
-            {
-                "$type": "trader",
-                "ID": "塔科夫之旅1_大妈解锁",
-                "Trader": "54cb57776803fa99248b456e",
-                "Quest": "塔科夫之旅1",
-                "Stage": 1,
-                "Hidden": false,
-                "Unknown": false,
-                "IsAchievement": false
-            }
-        ]
+        "QuestReward": []
     },
     "塔科夫之旅2": {
         "ID": "塔科夫之旅2",

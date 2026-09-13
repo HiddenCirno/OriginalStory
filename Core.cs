@@ -29,7 +29,7 @@ public record ModMetadata : IModMetadata
 
     public List<string>? Contributors { get; init; }
 
-    public SemanticVersioning.Version Version { get; init; } = new("1.4.7");
+    public SemanticVersioning.Version Version { get; init; } = new("1.4.8");
 
     public SemanticVersioning.Range SptVersion { get; init; } = new("~4.1.0");
 
@@ -160,7 +160,7 @@ public class Core(
 
         EventManager.DataLoadEvent.FixItemCompatibleEvent += (LoadModContext context) =>
         {
-            context.DB.GetTrader(Traders.THERAPIST).Base.UnlockedByDefault = false;
+            //context.DB.GetTrader(Traders.THERAPIST).Base.UnlockedByDefault = false;
             context.DB.GetTrader(Traders.SKIER).Base.UnlockedByDefault = false;
             context.DB.GetTrader(Traders.MECHANIC).Base.UnlockedByDefault = false;
             context.DB.GetTrader(Traders.PRAPOR).Base.UnlockedByDefault = false;
