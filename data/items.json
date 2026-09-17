@@ -1560,7 +1560,7 @@
             ],
             "BlackListType": 64,
             "QuestItemData": {
-                "location": "TarkovStreets",
+                "location": "Interchange",
                 "locationId": "(-203.5264,22.1958,-361.5796)",
                 "probability": 1,
                 "template": {
