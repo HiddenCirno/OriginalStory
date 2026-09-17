@@ -2,8 +2,8 @@
   {
     "zoneId": "story_chapter4_visit_tgbuilding_streets",
     "zoneName": "story_chapter4_visit_tgbuilding_streets",
-    "zoneLocation": "Shoreline",
-    "zoneType": "placeitem",
+    "zoneLocation": "TarkovStreets",
+    "zoneType": "visit",
     "flareType": "",
     "position": {
       "x": 57.65849,
@@ -28,8 +28,8 @@
   {
     "zoneId": "story_chapter4_visit_car_streets",
     "zoneName": "story_chapter4_visit_car_streets",
-    "zoneLocation": "Shoreline",
-    "zoneType": "placeitem",
+    "zoneLocation": "TarkovStreets",
+    "zoneType": "visit",
     "flareType": "",
     "position": {
       "x": 36.95532,
