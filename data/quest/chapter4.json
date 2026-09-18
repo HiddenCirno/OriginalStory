@@ -293,10 +293,20 @@
                     "count": 1
                 },
                 {
+                    "$type": "find",
+                    "id": "无名者6_寻物_总部命令",
+                    "visible": [
+                        "无名者6_上交_AP解密U盘"
+                    ],
+                    "inraid": false,
+                    "itemid": "总部命令",
+                    "count": 1
+                },
+                {
                     "$type": "hand",
                     "id": "无名者6_上交_总部命令",
                     "visible": [
-                        "无名者6_上交_AP解密U盘"
+                        "无名者6_寻物_总部命令"
                     ],
                     "inraid": false,
                     "itemid": "总部命令",
