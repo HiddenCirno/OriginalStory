@@ -115,8 +115,8 @@
                     "chooseexitpoint": false
                 },
                 {
-                    "$type": "hand",
-                    "id": "迷宫2_上交_Leshy的命令",
+                    "$type": "find",
+                    "id": "迷宫2_寻物_Leshy的命令",
                     "visible": [
                         "迷宫2_海岸线转移"
                     ],
@@ -126,9 +126,29 @@
                 },
                 {
                     "$type": "hand",
-                    "id": "迷宫2_上交_Leshy的日志",
+                    "id": "迷宫2_上交_Leshy的命令",
+                    "visible": [
+                        "迷宫2_寻物_Leshy的命令"
+                    ],
+                    "inraid": false,
+                    "itemid": "Leshy的命令",
+                    "count": 1
+                },
+                {
+                    "$type": "find",
+                    "id": "迷宫2_寻物_Leshy的日志",
                     "visible": [
                         "迷宫2_海岸线转移"
+                    ],
+                    "inraid": false,
+                    "itemid": "Leshy的日志",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
+                    "id": "迷宫2_上交_Leshy的日志",
+                    "visible": [
+                        "迷宫2_寻物_Leshy的日志"
                     ],
                     "inraid": false,
                     "itemid": "Leshy的日志",

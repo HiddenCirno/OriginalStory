@@ -41,15 +41,35 @@
         "QuestData": {
             "Finish": [
                 {
-                    "$type": "hand",
-                    "id": "无名者1_上交_货运传真",
+                    "$type": "find",
+                    "id": "无名者1_寻物_货运传真",
                     "inraid": false,
                     "itemid": "货运传真",
                     "count": 1
                 },
                 {
                     "$type": "hand",
+                    "id": "无名者1_上交_货运传真",
+                    "visible": [
+                        "无名者1_寻物_货运传真"
+                    ],
+                    "inraid": false,
+                    "itemid": "货运传真",
+                    "count": 1
+                },
+                {
+                    "$type": "find",
+                    "id": "无名者1_寻物_TG文件",
+                    "inraid": false,
+                    "itemid": "TG文件",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
                     "id": "无名者1_上交_TG文件",
+                    "visible": [
+                        "无名者1_寻物_TG文件"
+                    ],
                     "inraid": false,
                     "itemid": "TG文件",
                     "count": 1
@@ -69,8 +89,18 @@
         "QuestData": {
             "Finish": [
                 {
+                    "$type": "find",
+                    "id": "无名者2_寻物_货运清单",
+                    "inraid": false,
+                    "itemid": "货运清单",
+                    "count": 1
+                },
+                {
                     "$type": "hand",
                     "id": "无名者2_上交_货运清单",
+                    "visible": [
+                        "无名者2_寻物_货运清单"
+                    ],
                     "inraid": false,
                     "itemid": "货运清单",
                     "count": 1
@@ -200,15 +230,35 @@
         "QuestData": {
             "Finish": [
                 {
-                    "$type": "hand",
-                    "id": "无名者5_上交_AP会议录音带1",
+                    "$type": "find",
+                    "id": "无名者5_寻物_AP会议录音带1",
                     "inraid": false,
                     "itemid": "AP会议录音带1",
                     "count": 1
                 },
                 {
                     "$type": "hand",
+                    "id": "无名者5_上交_AP会议录音带1",
+                    "visible": [
+                        "无名者5_寻物_AP会议录音带1"
+                    ],
+                    "inraid": false,
+                    "itemid": "AP会议录音带1",
+                    "count": 1
+                },
+                {
+                    "$type": "find",
+                    "id": "无名者5_寻物_AP会议录音带2",
+                    "inraid": false,
+                    "itemid": "AP会议录音带2",
+                    "count": 1
+                },
+                {
+                    "$type": "hand",
                     "id": "无名者5_上交_AP会议录音带2",
+                    "visible": [
+                        "无名者5_寻物_AP会议录音带2"
+                    ],
                     "inraid": false,
                     "itemid": "AP会议录音带2",
                     "count": 1
